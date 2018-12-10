@@ -48,16 +48,24 @@
     </div>
     <div class="footer-bottom">
         <div class="container">
-            <div class="row">
-                <div class="footer-bottom-item">
-                    <a href="{{ url('legal/privacy-policy') }}">Privacy Policy</a>
+            <div class="row footer-bottom-flex">
+
+                <div class="col-md-2">
+                    <div class="footer-bottom-item">
+                        <a href="{{ url('legal/privacy-policy') }}">Privacy Policy</a>
+                    </div>
                 </div>
-                <div class="footer-bottom-item">
-                    <a href="{{ url('legal/terms-of-service') }}">Terms of service</a>
+                <div class="col-md-2">
+                    <div class="footer-bottom-item">
+                        <a href="{{ url('legal/terms-of-service') }}">Terms of service</a>
+                    </div>
                 </div>
-                <div class="footer-bottom-item">
-                    <a href="{{ url('legal/cookie-policy') }}">Cookie Policy</a>
+                <div class="col-md-2">
+                    <div class="footer-bottom-item">
+                        <a href="{{ url('legal/cookie-policy') }}">Cookie Policy</a>
+                    </div>
                 </div>
+
             </div>
         </div>
     </div>

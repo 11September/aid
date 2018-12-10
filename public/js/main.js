@@ -47,13 +47,14 @@ jQuery(document).ready(function( $ ) {
         $('body').append($mobile_nav);
         $('body').prepend('<button type="button" id="mobile-nav-toggle"><i class="fa fa-bars"></i></button>');
         $('body').append('<div id="mobile-body-overly"></div>');
-        $('#mobile-nav').find('.menu-has-children').prepend('<i class="fa fa-chevron-down"></i>');
 
-        $(document).on('click', '.menu-has-children i', function(e) {
-            $(this).next().toggleClass('menu-item-active');
-            $(this).nextAll('ul').eq(0).slideToggle();
-            $(this).toggleClass("fa-chevron-up fa-chevron-down");
-        });
+        // $('#mobile-nav').find('.menu-has-children').prepend('<i class="fa fa-chevron-down"></i>');
+        //
+        // $(document).on('click', '.menu-has-children i', function(e) {
+        //     $(this).next().toggleClass('menu-item-active');
+        //     $(this).nextAll('ul').eq(0).slideToggle();
+        //     $(this).toggleClass("fa-chevron-up fa-chevron-down");
+        // });
 
         $(document).on('click', '#mobile-nav-toggle', function(e) {
             $('body').toggleClass('mobile-nav-active');
@@ -109,27 +110,24 @@ jQuery(document).ready(function( $ ) {
         }
     });
 
-    // Modal video
-    new ModalVideo('.js-modal-btn', {channel: 'youtube'});
-
     // Init Owl Carousel
-    $('.owl-carousel').owlCarousel({
-        items: 4,
-        autoplay: true,
-        loop: true,
-        margin: 30,
-        dots: true,
-        responsiveClass: true,
-        responsive: {
-
-            320: { items: 1},
-            480: { items: 2},
-            600: { items: 2},
-            767: { items: 3},
-            768: { items: 3},
-            992: { items: 4}
-        }
-    });
+    // $('.owl-carousel').owlCarousel({
+    //     items: 4,
+    //     autoplay: true,
+    //     loop: true,
+    //     margin: 30,
+    //     dots: true,
+    //     responsiveClass: true,
+    //     responsive: {
+    //
+    //         320: { items: 1},
+    //         480: { items: 2},
+    //         600: { items: 2},
+    //         767: { items: 3},
+    //         768: { items: 3},
+    //         992: { items: 4}
+    //     }
+    // });
 
 // custom code
 
