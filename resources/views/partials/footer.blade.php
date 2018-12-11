@@ -32,7 +32,6 @@
                         <h4>Legal Overview</h4>
                         <p><a href="{{ url('legal/terms-of-service') }}">Terms of Service</a></p>
                         <p><a href="{{ url('legal/cookie-policy') }}">Cookie Policy</a></p>
-                        <p><a href="{{ url('legal/cookie-policy') }}">Cookie Policy</a></p>
                         <p><a href="{{ url('legal/privacy-policy') }}">Privacy Policy</a></p>
                         <p><a href="{{ url('legal/gdpr') }}">GDPR</a></p>
                     </div>
