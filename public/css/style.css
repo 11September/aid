@@ -85,6 +85,22 @@ span {
     -webkit-transition: all 0.5s ease-in-out 0s;
     transition: all 0.5s ease-in-out 0s;
 }
+
+.mb35{
+    margin-bottom: 35px;
+}
+
+.mailto{
+    color: #294e5b;;
+    font-weight: 400;
+    text-decoration: none;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+}
+.mailto:hover{
+    color: #5da6c0;
+    text-decoration: none;
+}
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
@@ -1085,6 +1101,308 @@ footer a:hover{
     -webkit-transition: opacity 0.24s ease-in-out;
     -moz-transition: opacity 0.24s ease-in-out;
     transition: opacity 0.24s ease-in-out;
+}
+
+/*--------------------------------------------------------------
+# Roadmap page
+--------------------------------------------------------------*/
+.roadmap{
+    margin-top: 100px;
+    width: 100%;
+    background-size: 100%;
+    position: relative;
+    padding: 50px 0 82px 0;
+    border-bottom-width: 1px;
+    padding-top: 80px;
+    padding-bottom: 10px;
+    background-color: #ffffff;
+    border-bottom-color: #e9ecef;
+    border-bottom-style: solid;
+}
+
+.roadmap h1 {
+    margin-bottom: 35px;
+    color: #294e5b;
+    font-weight: 900;
+    font-style: normal;
+    font-family: Roboto;
+    line-height: 72px;
+    letter-spacing: -1px;
+    font-size: 60px;
+    opacity: 1;
+    visibility: visible;
+    -webkit-transition: opacity 0.24s ease-in-out;
+    -moz-transition: opacity 0.24s ease-in-out;
+    transition: opacity 0.24s ease-in-out;
+}
+
+.roadmap h3 {
+    margin-bottom: 35px;
+    text-align: center;
+    color: #294e5b;
+    font-family: Montserrat;
+    line-height: 36px;
+    letter-spacing: 0;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 24px;
+    opacity: 1;
+    visibility: visible;
+    -webkit-transition: opacity 0.24s ease-in-out;
+    -moz-transition: opacity 0.24s ease-in-out;
+    transition: opacity 0.24s ease-in-out;
+}
+
+.roadmap-features{
+    padding: 50px  0 100px 0;
+}
+
+.roadmap-features-item{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 35px;
+    min-height: 60px;
+}
+
+.roadmap-features-item-icon{
+    width: 100px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.roadmap-features-item-icon .fa{
+    color: #5da6c0;
+    font-size: 2.15em!important;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+}
+
+.roadmap-features-item-description{
+    width: calc(100% - 100px);
+    min-height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.roadmap-features-item-description p{
+    margin: 0;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    color: #294e5b;
+}
+
+.share-your-ideas-mail a{
+    color: #47535e;
+    font-size: 15px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+}
+
+.share-your-ideas{
+    padding: 100px 0 75px 0;
+    background-color: #f8f8f8;
+}
+
+.share-your-ideas-text, .share-your-ideas-form{
+    padding-right: 15%;
+}
+
+.share-your-ideas .get-touch-wrapper-form{
+    margin-top: 0;
+}
+
+.share-your-ideas .get-touch-form{
+    width: 100%;
+}
+
+
+/*--------------------------------------------------------------
+# FAQ page
+--------------------------------------------------------------*/
+.faq-features{
+    padding: 50px 0;
+}
+
+.faq-features-item-heading{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 35px;
+    padding: 30px 0 20px 0;
+}
+
+.faq-features-item-heading-icon{
+    width: 50px;
+    height: 50px;
+}
+
+.faq-features-item-heading-icon .fa{
+    color: #5da6c0;
+    font-size: 50px!important;
+    line-height: 50px!important;
+}
+
+.faq-features-item-heading-text{
+    margin-left: 40px;
+    height: 50px;
+}
+
+.faq-features-item-heading-text .strong{
+    margin: 0;
+    height: inherit;
+    color: #294e5b;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+}
+
+p.accordion {
+    /*background-color: #eee;*/
+    font-weight: 400 !important;
+    color: #294e5b;
+    font-family: Montserrat;
+    text-transform: capitalize;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    font-style: normal;
+    font-size: 18px;
+    opacity: 1;
+    visibility: visible;
+    -webkit-transition: opacity 0.24s ease-in-out;
+    -moz-transition: opacity 0.24s ease-in-out;
+    transition: opacity 0.24s ease-in-out;
+    cursor: pointer;
+}
+
+p.accordion.active, p.accordion:hover {
+
+}
+
+p.accordion:before {
+    content: '\2795';
+    font-size: 15px;
+    color: #777;
+    float: left;
+    margin-right: 10px;
+}
+
+p.accordion.active:before {
+    content: "\2796";
+}
+
+.panel {
+    padding-left: 24px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.4s ease-in-out;
+    opacity: 0;
+    /*display: none;*/
+    margin-bottom:10px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    color: #294e5b;
+}
+
+.answer-symbol{
+    color: #5ea6c1;
+}
+
+.panel.show {
+    /*display: block;*/
+    opacity: 1;
+    min-height: 30px;
+    max-height: 10000px;
+}
+
+/*--------------------------------------------------------------
+# How-it-works page
+--------------------------------------------------------------*/
+.roadmap.how-it-works-page{
+    margin-top: 140px;
+    border-bottom: none;
+}
+
+.how-it-works-page h3{
+    text-align: center;
+}
+.how-it-works-page span{
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+#how-it-works-features{
+    padding: 50px 0 0 0;
+}
+
+#how-it-works-features .wrapper-latest-features-content{
+    padding: unset;
+}
+
+#how-it-works-features .tab{
+    width: 20%;
+}
+#how-it-works-features .tabcontent{
+    width: 80%;
+    padding: 0 40px;
+}
+
+.wrapper-latest-features-content-2{
+    padding: 100px 0 0 0;
+}
+
+.wrapper-latest-features-content-2 h3{
+    text-align: center;
+    color: #294e5b;
+    font-family: Montserrat;
+    line-height: 36px;
+    letter-spacing: 0;
+    font-style: normal;
+    font-size: 24px;
+    opacity: 1;
+    visibility: visible;
+    -webkit-transition: opacity 0.24s ease-in-out;
+    -moz-transition: opacity 0.24s ease-in-out;
+    transition: opacity 0.24s ease-in-out;
+    font-weight: 600 !important;
+}
+
+#how-it-works-features .wrapper-latest-features-content-2 .wrapper-latest-features-content{
+    margin-top: 85px;
+    padding-bottom: 200px;
+}
+
+.tabcontent2 {
+    float: left;
+    padding: 0 20px;
+    width: 70%;
+    border-left: none;
+}
+.tabcontent-content2{
+    width: 100%;
+    margin-bottom: 35px;
+}
+.tabcontent-content2 img{
+    height: auto;
+    max-width: 100%;
+    vertical-align: top;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+#how-it-works-features .tabcontent2{
+    width: 80%;
+    padding: 0 40px;
 }
 
 
