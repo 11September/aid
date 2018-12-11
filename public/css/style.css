@@ -1405,6 +1405,87 @@ p.accordion.active:before {
     padding: 0 40px;
 }
 
+#how-it-works-features .tabcontent2{
+    width: 80%;
+    padding: 0 40px;
+}
+
+/*--------------------------------------------------------------
+# Contacts Page
+--------------------------------------------------------------*/
+.contacts-page{
+    margin-top: 70px;
+    background-color: #f8f8f8;
+    padding: 70px 0 30px 0;
+}
+
+.contacts-page h2{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.contacts-page-wrapper-form{
+    padding: 50px 0 0 0;
+}
+
+.contacts-page-wrapper-form .form-group{
+    margin-bottom: 0;
+}
+
+.contacts-page-wrapper-form label{
+    font-family: Montserrat;
+    text-align: left;
+    text-transform: none;
+    line-height: 18px;
+    font-weight: 400;
+    font-style: normal;
+    color: #4b555f;
+    font-size: 12px;
+    opacity: 1;
+    visibility: visible;
+}
+
+.contacts-page-wrapper-form input,
+.contacts-page-wrapper-form textarea
+{
+    width: 100%;
+    border-radius: 0;
+    border-top: 2px solid #e9ecef;
+    border-bottom: 2px solid #e9ecef;
+    border-left: 2px solid #e9ecef;
+    border-right: 2px solid #e9ecef;
+    margin: 0 0 10px 0;
+    padding: 15px 20px 15px 20px;
+    background: #ffffff;
+    font-family: Montserrat;
+    line-height: 18px;
+    font-weight: 500;
+    font-style: normal;
+    color: #4b555f;
+    font-size: 13px;
+    opacity: 1;
+    visibility: visible;
+    -webkit-transition: opacity 0.24s ease-in-out;
+    -moz-transition: opacity 0.24s ease-in-out;
+    transition: opacity 0.24s ease-in-out;
+}
+
+.contacts-page-wrapper-form input[type=submit]{
+    color: #ffffff;
+    width: 100%;
+    border: none;
+    text-align: center;
+    clear: both;
+    background-color: #5ea6c1;
+    border-radius: 0;
+    height: 48px;
+    font-size: 14px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: transform .2s linear,box-shadow .2s linear;
+}
+
 
 /*--------------------------------------------------------------
 # Media
