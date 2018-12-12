@@ -84,7 +84,7 @@
                             <i class="fa fa-handshake-o" aria-hidden="true"></i>
                         </div>
                         <div class="unique-item-description">
-                            <p style="text-align: center;">Fast adoption – extremely easy to implement in any type of
+                            <p>Fast adoption – extremely easy to implement in any type of
                                 organisation</p>
                         </div>
                     </div>
@@ -96,7 +96,7 @@
                             <i class="fa fa-puzzle-piece" aria-hidden="true"></i>
                         </div>
                         <div class="unique-item-description">
-                            <p style="text-align: center;">Modular approach – organisations can use just the needed
+                            <p>Modular approach – organisations can use just the needed
                                 tools</p>
                         </div>
                     </div>
@@ -108,7 +108,7 @@
                             <i class="fa fa-desktop" aria-hidden="true"></i>
                         </div>
                         <div class="unique-item-description">
-                            <p style="text-align: center;">Simple to use – user friendly without getting technical</p>
+                            <p>Simple to use – user friendly without getting technical</p>
                         </div>
                     </div>
                 </div>
@@ -117,7 +117,7 @@
             <div class="about-page-wrapper-non-profit">
                 <div class="row">
                     <div class="col-md-12">
-                        <h2 style="text-align: center;"><strong>AidSpace is non-profit</strong></h2>
+                        <h2><strong>AidSpace is non-profit</strong></h2>
 
                         <div class="non-profit-text">
                             <p>AidSpace is a non-profit digital solutions organisation that delivers high quality

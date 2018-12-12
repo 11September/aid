@@ -777,11 +777,8 @@
 
                     <div class="tabcontent-content vc_box_shadow_3d box_shadow">
                         <img width="849" height="663"
-                             src="https://aidspace.io/wp-content/uploads/2018/10/settings-10-areas.png"
-                             class="vc_single_image-img attachment-large"
-                             alt="Volunteer administrator, edit volunteer area"
-                             srcset="https://aidspace.io/wp-content/uploads/2018/10/settings-10-areas.png 849w, https://aidspace.io/wp-content/uploads/2018/10/settings-10-areas-300x234.png 300w, https://aidspace.io/wp-content/uploads/2018/10/settings-10-areas-768x600.png 768w, https://aidspace.io/wp-content/uploads/2018/10/settings-10-areas-600x469.png 600w"
-                             sizes="(max-width: 849px) 100vw, 849px">
+                             src="{{ asset('images/settings-10-areas.png') }}"
+                             alt="Volunteer administrator, edit volunteer area">
                     </div>
 
                     <p><span style="font-weight: 400;">4. Users. Manage your users and their roles.</span></p>

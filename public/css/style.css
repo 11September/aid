@@ -1716,6 +1716,11 @@ p.accordion.active:before {
 .about-page-unique h2{
     text-align: center;
     margin-bottom: 35px;
+    color: #294e5b;
+}
+
+.about-page-unique .unique-item-description p{
+    text-align: center;
 }
 
 .about-page-unique-item{
@@ -1731,6 +1736,11 @@ p.accordion.active:before {
     border-radius: 5px;
     border-color: #fff !important;
     background-color: #fff !important;
+}
+
+.about-page-unique .about-page-wrapper-non-profit h2{
+    text-align: center;
+    color: #294e5b;
 }
 
 .unique-item-icon{

@@ -8,10 +8,6 @@
 
 <script src="{{ asset('js/main.js') }}"></script>
 
-
-
-
-
 <script>
     (function (i, s, o, g, r, a, m) {
         i['GoogleAnalyticsObject'] = r;
@@ -23,7 +19,7 @@
         a.async = 1;
         a.src = g;
         m.parentNode.insertBefore(a, m)
-    })(window, document, 'script', '../js/analytics.js', 'ga');
+    })(window, document, 'script', '{{ asset('js/analytics.js') }}', 'ga');
     ga('create', 'UA-119341282-1', 'auto');
     ga('send', 'pageview');
 </script>

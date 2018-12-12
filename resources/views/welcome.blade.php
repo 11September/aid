@@ -115,139 +115,97 @@
 
                 <div id="Dashboard" class="tabcontent">
                     <div class="tabcontent-content vc_box_shadow_3d box_shadow">
-                        <img width="1635"
-                             height="823"
-                             src="https://aidspace.io/wp-content/uploads/2018/10/dashboard-updates-feed.png"
-                             class="vc_single_image-img attachment-full"
-                             alt="Updates feed in Dashboard"
-                             srcset="https://aidspace.io/wp-content/uploads/2018/10/dashboard-updates-feed.png 1635w, https://aidspace.io/wp-content/uploads/2018/10/dashboard-updates-feed-300x151.png 300w, https://aidspace.io/wp-content/uploads/2018/10/dashboard-updates-feed-768x387.png 768w, https://aidspace.io/wp-content/uploads/2018/10/dashboard-updates-feed-1024x515.png 1024w, https://aidspace.io/wp-content/uploads/2018/10/dashboard-updates-feed-600x302.png 600w"
-                             sizes="(max-width: 1635px) 100vw, 1635px">
+                        <img width="1635" height="823" src="{{ asset('images/dashboard-updates-feed.png') }}" alt="Updates feed in Dashboard">
                     </div>
                 </div>
 
                 <div id="Inbox" class="tabcontent">
                     <div class="tabcontent-content vc_box_shadow_3d box_shadow">
                         <img width="1609" height="337"
-                             src="https://aidspace.io/wp-content/uploads/2018/11/Inbox-AidSpace-Volunteers.png"
-                             class="vc_single_image-img attachment-full"
-                             alt="volunteer management, inbox , new messages"
-                             srcset="https://aidspace.io/wp-content/uploads/2018/11/Inbox-AidSpace-Volunteers.png 1609w, https://aidspace.io/wp-content/uploads/2018/11/Inbox-AidSpace-Volunteers-300x63.png 300w, https://aidspace.io/wp-content/uploads/2018/11/Inbox-AidSpace-Volunteers-768x161.png 768w, https://aidspace.io/wp-content/uploads/2018/11/Inbox-AidSpace-Volunteers-1024x214.png 1024w, https://aidspace.io/wp-content/uploads/2018/11/Inbox-AidSpace-Volunteers-600x126.png 600w"
-                             sizes="(max-width: 1609px) 100vw, 1609px">
+                             src="{{ asset('images/Inbox-AidSpace-Volunteers.png') }}"
+                             alt="volunteer management, inbox , new messages">
                     </div>
                 </div>
 
                 <div id="Scheduling" class="tabcontent">
                     <div class="tabcontent-content vc_box_shadow_3d box_shadow">
                         <img width="1633" height="837"
-                             src="https://aidspace.io/wp-content/uploads/2018/10/scheduling-module-2.png"
-                             class="vc_single_image-img attachment-full"
-                             alt="List of volnteers and their assignments in Schedule module"
-                             srcset="https://aidspace.io/wp-content/uploads/2018/10/scheduling-module-2.png 1633w, https://aidspace.io/wp-content/uploads/2018/10/scheduling-module-2-300x154.png 300w, https://aidspace.io/wp-content/uploads/2018/10/scheduling-module-2-768x394.png 768w, https://aidspace.io/wp-content/uploads/2018/10/scheduling-module-2-1024x525.png 1024w, https://aidspace.io/wp-content/uploads/2018/10/scheduling-module-2-600x308.png 600w"
-                             sizes="(max-width: 1633px) 100vw, 1633px">
+                             src="{{ asset('images/scheduling-module-2.png') }}"
+                             alt="List of volnteers and their assignments in Schedule module">
                     </div>
 
                     <div class="tabcontent-content vc_box_shadow_3d box_shadow">
                         <img width="1633" height="837"
-                             src="https://aidspace.io/wp-content/uploads/2018/10/scheduling-module-2.png"
-                             class="vc_single_image-img attachment-full"
-                             alt="List of volnteers and their assignments in Schedule module"
-                             srcset="https://aidspace.io/wp-content/uploads/2018/10/scheduling-module-2.png 1633w, https://aidspace.io/wp-content/uploads/2018/10/scheduling-module-2-300x154.png 300w, https://aidspace.io/wp-content/uploads/2018/10/scheduling-module-2-768x394.png 768w, https://aidspace.io/wp-content/uploads/2018/10/scheduling-module-2-1024x525.png 1024w, https://aidspace.io/wp-content/uploads/2018/10/scheduling-module-2-600x308.png 600w"
-                             sizes="(max-width: 1633px) 100vw, 1633px">
+                             src="{{ asset('images/scheduling-module-2.png') }}"
+                             alt="List of volnteers and their assignments in Schedule module">
                     </div>
 
                     <div class="tabcontent-content vc_box_shadow_3d box_shadow">
                         <img width="1920" height="1080"
-                             src="https://aidspace.io/wp-content/uploads/2018/10/scheduling-module-3.png"
-                             class="vc_single_image-img attachment-full" alt="Creating new shift pop up, new shift"
-                             srcset="https://aidspace.io/wp-content/uploads/2018/10/scheduling-module-3.png 1920w, https://aidspace.io/wp-content/uploads/2018/10/scheduling-module-3-300x169.png 300w, https://aidspace.io/wp-content/uploads/2018/10/scheduling-module-3-768x432.png 768w, https://aidspace.io/wp-content/uploads/2018/10/scheduling-module-3-1024x576.png 1024w, https://aidspace.io/wp-content/uploads/2018/10/scheduling-module-3-600x338.png 600w"
-                             sizes="(max-width: 1920px) 100vw, 1920px">
+                             src="{{ asset('images/scheduling-module-3.png') }}" alt="Creating new shift pop up, new shift">
                     </div>
                 </div>
 
                 <div id="Event" class="tabcontent">
                     <div class="tabcontent-content vc_box_shadow_3d box_shadow">
                         <img width="1644" height="816"
-                             src="https://aidspace.io/wp-content/uploads/2018/10/events-module-1.png"
-                             class="vc_single_image-img attachment-full" alt="Event, events module"
-                             srcset="https://aidspace.io/wp-content/uploads/2018/10/events-module-1.png 1644w, https://aidspace.io/wp-content/uploads/2018/10/events-module-1-300x149.png 300w, https://aidspace.io/wp-content/uploads/2018/10/events-module-1-768x381.png 768w, https://aidspace.io/wp-content/uploads/2018/10/events-module-1-1024x508.png 1024w, https://aidspace.io/wp-content/uploads/2018/10/events-module-1-600x298.png 600w"
-                             sizes="(max-width: 1644px) 100vw, 1644px">
+                             src="{{ asset('images/events-module-1.png') }}" alt="Event, events module">
                     </div>
                 </div>
 
                 <div id="Tutorials" class="tabcontent">
                     <div class="tabcontent-content vc_box_shadow_3d box_shadow">
                         <img width="1878" height="1034"
-                             src="https://aidspace.io/wp-content/uploads/2018/10/tutorials-and-guides.png"
-                             class="vc_single_image-img attachment-full"
-                             alt="Tutorials for volunteers, tutorials for administrators"
-                             srcset="https://aidspace.io/wp-content/uploads/2018/10/tutorials-and-guides.png 1878w, https://aidspace.io/wp-content/uploads/2018/10/tutorials-and-guides-300x165.png 300w, https://aidspace.io/wp-content/uploads/2018/10/tutorials-and-guides-768x423.png 768w, https://aidspace.io/wp-content/uploads/2018/10/tutorials-and-guides-1024x564.png 1024w, https://aidspace.io/wp-content/uploads/2018/10/tutorials-and-guides-600x330.png 600w"
-                             sizes="(max-width: 1878px) 100vw, 1878px">
+                             src="{{ asset('images/tutorials-and-guides.png') }}"
+                             alt="Tutorials for volunteers, tutorials for administrators">
                     </div>
                 </div>
 
                 <div id="Work" class="tabcontent">
                     <div class="tabcontent-content vc_box_shadow_3d box_shadow">
                         <img width="1590" height="885"
-                             src="https://aidspace.io/wp-content/uploads/2018/10/work-history.png"
-                             class="vc_single_image-img attachment-full"
-                             alt="Work history of the volunteer, work experience of the volunteer"
-                             srcset="https://aidspace.io/wp-content/uploads/2018/10/work-history.png 1590w, https://aidspace.io/wp-content/uploads/2018/10/work-history-300x167.png 300w, https://aidspace.io/wp-content/uploads/2018/10/work-history-768x427.png 768w, https://aidspace.io/wp-content/uploads/2018/10/work-history-1024x570.png 1024w, https://aidspace.io/wp-content/uploads/2018/10/work-history-600x334.png 600w"
-                             sizes="(max-width: 1590px) 100vw, 1590px">
+                             src="{{ asset('images/work-history.png') }}"
+                             alt="Work history of the volunteer, work experience of the volunteer">
                     </div>
                 </div>
 
                 <div id="Report" class="tabcontent">
                     <div class="tabcontent-content vc_box_shadow_3d box_shadow">
                         <img width="1613" height="718"
-                             src="https://aidspace.io/wp-content/uploads/2018/10/reports-print-1.png"
-                             class="vc_single_image-img attachment-full"
-                             alt="Reports print, printing reports for admins or coordinators"
-                             srcset="https://aidspace.io/wp-content/uploads/2018/10/reports-print-1.png 1613w, https://aidspace.io/wp-content/uploads/2018/10/reports-print-1-300x134.png 300w, https://aidspace.io/wp-content/uploads/2018/10/reports-print-1-768x342.png 768w, https://aidspace.io/wp-content/uploads/2018/10/reports-print-1-1024x456.png 1024w, https://aidspace.io/wp-content/uploads/2018/10/reports-print-1-600x267.png 600w"
-                             sizes="(max-width: 1613px) 100vw, 1613px">
+                             src="{{ asset('images/reports-print-1.png') }}"
+                             alt="Reports print, printing reports for admins or coordinators">
                     </div>
 
                     <div class="tabcontent-content vc_box_shadow_3d box_shadow">
                         <img width="1858" height="916"
-                             src="https://aidspace.io/wp-content/uploads/2018/10/reports-print-2.png"
-                             class="vc_single_image-img attachment-full" alt="Print report preview, report print"
-                             srcset="https://aidspace.io/wp-content/uploads/2018/10/reports-print-2.png 1858w, https://aidspace.io/wp-content/uploads/2018/10/reports-print-2-300x148.png 300w, https://aidspace.io/wp-content/uploads/2018/10/reports-print-2-768x379.png 768w, https://aidspace.io/wp-content/uploads/2018/10/reports-print-2-1024x505.png 1024w, https://aidspace.io/wp-content/uploads/2018/10/reports-print-2-600x296.png 600w"
-                             sizes="(max-width: 1858px) 100vw, 1858px">
+                             src="{{ asset('images/reports-print-2.png') }}" alt="Print report preview, report print">
                     </div>
                 </div>
 
                 <div id="Volunteer" class="tabcontent">
                     <div class="tabcontent-content vc_box_shadow_3d box_shadow">
                         <img width="1335" height="811"
-                             src="https://aidspace.io/wp-content/uploads/2018/10/volunteer-availability-1.png"
-                             class="vc_single_image-img attachment-full"
-                             alt="Availability of the volunteer, aidspace, volutneer availability"
-                             srcset="https://aidspace.io/wp-content/uploads/2018/10/volunteer-availability-1.png 1335w, https://aidspace.io/wp-content/uploads/2018/10/volunteer-availability-1-300x182.png 300w, https://aidspace.io/wp-content/uploads/2018/10/volunteer-availability-1-768x467.png 768w, https://aidspace.io/wp-content/uploads/2018/10/volunteer-availability-1-1024x622.png 1024w, https://aidspace.io/wp-content/uploads/2018/10/volunteer-availability-1-600x364.png 600w"
-                             sizes="(max-width: 1335px) 100vw, 1335px">
+                             src="{{ asset('images/volunteer-availability-1.png') }}"
+                             alt="Availability of the volunteer, aidspace, volutneer availability">
                     </div>
                 </div>
 
                 <div id="Automated" class="tabcontent">
                     <div class="tabcontent-content vc_box_shadow_3d box_shadow">
                         <img width="1400" height="788"
-                             src="https://aidspace.io/wp-content/uploads/2018/10/automated-email-notifications-1.png"
-                             class="vc_single_image-img attachment-full"
-                             alt="Automated email notifications; shifts; awaiting approval; rejected shifts"
-                             srcset="https://aidspace.io/wp-content/uploads/2018/10/automated-email-notifications-1.png 1400w, https://aidspace.io/wp-content/uploads/2018/10/automated-email-notifications-1-300x169.png 300w, https://aidspace.io/wp-content/uploads/2018/10/automated-email-notifications-1-768x432.png 768w, https://aidspace.io/wp-content/uploads/2018/10/automated-email-notifications-1-1024x576.png 1024w, https://aidspace.io/wp-content/uploads/2018/10/automated-email-notifications-1-600x338.png 600w"
-                             sizes="(max-width: 1400px) 100vw, 1400px">
+                             src="{{ asset('images/automated-email-notifications-1.png') }}"
+                             alt="Automated email notifications; shifts; awaiting approval; rejected shifts">
                     </div>
                 </div>
 
                 <div id="More" class="tabcontent">
                     <div class="tabcontent-content vc_box_shadow_3d box_shadow">
                         <img class="vc_single_image-img "
-                             src="https://aidspace.io/wp-content/uploads/2018/10/advanced-search-options-1017x566.png"
+                             src="{{ asset('images/advanced-search-options-1017x566.png') }}"
                              width="1017" height="566"
-                             alt="Advanced search in admin or coordinator profile; volunteers search; match volunteer profile"
-                             title="advanced search options">
+                             alt="Advanced search in admin or coordinator profile; volunteers search; match volunteer profile">
                     </div>
                 </div>
-
-
             </div>
         </div>
 
@@ -428,10 +386,8 @@
                             <div class="goals-icon">
                                 <div class="box_shadow">
                                     <img class="vc_single_image-img "
-                                         src="https://aidspace.io/wp-content/uploads/2018/11/E_INVERTED-SDG-goals_icons-individual-RGB-08-100x100.png"
-                                         width="100" height="100"
-                                         alt="Companies that uphold labor standards across their own operations and value chains achieve positive reputation and legal stability.Embracing diversity and inclusion will also lead to greater access to skilled and productive talent."
-                                         title="E_INVERTED SDG goals_icons-individual-RGB-08">
+                                         src="{{ asset('images/E_INVERTED-SDG-goals_icons-individual-RGB-08-100x100.png') }}"
+                                         width="100" height="100" alt="Companies that uphold labor standards across their own operations and value chains achieve positive reputation and legal stability.Embracing diversity and inclusion will also lead to greater access to skilled and productive talent.">
                                 </div>
                             </div>
                         </div>
@@ -441,10 +397,9 @@
                             <div class="goals-icon">
                                 <div class="box_shadow">
                                     <img class="vc_single_image-img "
-                                         src="https://aidspace.io/wp-content/uploads/2018/11/E_INVERTED-SDG-goals_icons-individual-RGB-09-100x100.png"
+                                         src="{{ asset('images/E_INVERTED-SDG-goals_icons-individual-RGB-09-100x100.png') }}"
                                          width="100" height="100"
-                                         alt="Build resilient infrastructure, promote inclusive and sustainable industrialization and foster innovation."
-                                         title="E_INVERTED SDG goals_icons-individual-RGB-09">
+                                         alt="Build resilient infrastructure, promote inclusive and sustainable industrialization and foster innovation.">
                                 </div>
                             </div>
                         </div>
@@ -454,10 +409,9 @@
                             <div class="goals-icon">
                                 <div class="box_shadow">
                                     <img class="vc_single_image-img "
-                                         src="https://aidspace.io/wp-content/uploads/2018/11/E_INVERTED-SDG-goals_icons-individual-RGB-17-100x100.png"
+                                         src="{{ asset('images/E_INVERTED-SDG-goals_icons-individual-RGB-17-100x100.png') }}"
                                          width="100" height="100"
-                                         alt="Make multi-collaborator partnerships to mobilize and share knowledge, expertise, technologies and financial resources to support the goals in all countries, particularly developing countries.It further seeks to encourage and promote effective public, public-private and civil society alliances built on the experience and resourcing strategies of partnerships."
-                                         title="E_INVERTED SDG goals_icons-individual-RGB-17">
+                                         alt="Make multi-collaborator partnerships to mobilize and share knowledge, expertise, technologies and financial resources to support the goals in all countries, particularly developing countries.It further seeks to encourage and promote effective public, public-private and civil society alliances built on the experience and resourcing strategies of partnerships.">
                                 </div>
                             </div>
                         </div>

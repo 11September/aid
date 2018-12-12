@@ -14,8 +14,8 @@
                 <li class="{{ Request::is('faq') ? 'menu-active' : '' }}"><a href="{{ url('/faq') }}">FAQ</a></li>
                 <li class="{{ Request::is('how-it-works') ? 'menu-active' : '' }}"><a href="{{ url('/how-it-works') }}">How it works</a></li>
                 <li class="{{ Request::is('contacts') ? 'menu-active' : '' }}"><a href="{{ url('/contacts') }}">Contact us</a></li>
-                <li><a href="https://volunteers.aidspace.io/login">LOGIN</a></li>
-                <li><a href="https://volunteers.aidspace.io/signup">FREE TRIAL</a></li>
+                <li><a href="{{ url('https://volunteers.aidspace.io/login') }}">LOGIN</a></li>
+                <li><a href="{{ url('https://volunteers.aidspace.io/signup') }}">FREE TRIAL</a></li>
             </ul>
         </nav>
     </div>
