@@ -460,15 +460,15 @@
                 <div class="col-md-6">
                     <div class="share-your-ideas-text">
                         <h2 class="mb35">Share your ideas</h2>
-                        <p class="mb35">Drop us an email if you have your own idea for features to be included.</p>
+                        <p>Drop us an email if you have your own idea for features to be included.</p>
 
-                        <p class="share-your-ideas-mail"><a href="mailto:info@aidspace.io"><strong>info@aidspace.io</strong></a></p>
+                        <p><a href="mailto:info@aidspace.io"><strong>info@aidspace.io</strong></a></p>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="share-your-ideas-form">
                         <h2 class="mb35">Sign up for updates</h2>
-                        <p class="mb35">Interested in the new features we are working on lately? Sign up below.</p>
+                        <p>Interested in the new features we are working on lately? Sign up below.</p>
 
                         <div class="get-touch-wrapper-form">
                             <div class="get-touch-form">
