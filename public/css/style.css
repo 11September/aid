@@ -1640,7 +1640,25 @@ p.accordion.active:before {
     color: #5da6c0;
 }
 
+#privacy-policy h4{
+    color: #294e5b;
+    font-family: Montserrat;
+    text-transform: capitalize;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 18px;
+    opacity: 1;
+    visibility: visible;
+    -webkit-transition: opacity 0.24s ease-in-out;
+    -moz-transition: opacity 0.24s ease-in-out;
+    transition: opacity 0.24s ease-in-out;
+}
 
+#privacy-policy ul{
+    padding-left: 20px;
+}
 /*--------------------------------------------------------------
 # About Page
 --------------------------------------------------------------*/

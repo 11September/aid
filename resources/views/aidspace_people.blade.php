@@ -117,10 +117,8 @@
                         <div class="how-it-works-blocks-image-wrapper">
                             <div class="image tabcontent-content vc_box_shadow_3d box_shadow">
                                 <img width="300" height="200"
-                                     src="https://aidspace.io/wp-content/uploads/2018/07/AidSpace-volunteers-how-it-works-300x200.jpg"
-                                     class="vc_single_image-img attachment-medium" alt=""
-                                     srcset="https://aidspace.io/wp-content/uploads/2018/07/AidSpace-volunteers-how-it-works-300x200.jpg 300w, https://aidspace.io/wp-content/uploads/2018/07/AidSpace-volunteers-how-it-works-768x512.jpg 768w, https://aidspace.io/wp-content/uploads/2018/07/AidSpace-volunteers-how-it-works-1024x683.jpg 1024w, https://aidspace.io/wp-content/uploads/2018/07/AidSpace-volunteers-how-it-works-600x400.jpg 600w"
-                                     sizes="(max-width: 300px) 100vw, 300px">
+                                     src="{{ asset('images/AidSpace-volunteers-how-it-works-300x200.jpg') }}"
+                                     class="vc_single_image-img attachment-medium" alt="">
                             </div>
                         </div>
                     </div>
