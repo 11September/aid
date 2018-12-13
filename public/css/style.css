@@ -2308,16 +2308,22 @@ span.img-text:hover {
         display: block;
     }
 
+    #how-it-works-features .wrapper-latest-features-content-2 .wrapper-latest-features-content{
+        padding-bottom: 0;
+    }
+
     .wrapper-latest-features-content .tab{
         display: none;
     }
 
-    .wrapper-latest-features-content .tabcontent{
+    .wrapper-latest-features-content .tabcontent,
+    .wrapper-latest-features-content .tabcontent2{
         display: none !important;
     }
 
-    .wrapper-latest-features-content #Dashboard{
-        display: none;
+    .wrapper-latest-features-content #Dashboard,
+    .wrapper-latest-features-content #Dashboard2{
+        display: none !important;
     }
 }
 
