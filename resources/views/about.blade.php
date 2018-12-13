@@ -22,7 +22,7 @@
 
 @section('content')
 
-    <section id="about-page" class="wow fadeIn">
+    <section id="about-page">
         <div class="container">
             <div class="about-page-intro">
                 <img class="logo" src="{{ asset('images/logo-new-website-retina.png') }}" alt="logo">
@@ -117,7 +117,7 @@
             <div class="about-page-wrapper-non-profit">
                 <div class="row">
                     <div class="col-md-12">
-                        <h2><strong>AidSpace is non-profit</strong></h2>
+                        <h2 class="wow animated fadeIn"><strong>AidSpace is non-profit</strong></h2>
 
                         <div class="non-profit-text">
                             <p>AidSpace is a non-profit digital solutions organisation that delivers high quality

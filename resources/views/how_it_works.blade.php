@@ -847,7 +847,7 @@
             </div>
 
             <div class="wrapper-latest-features-content-2">
-                <h3 style=""><strong><span style="text-decoration: underline;">Volunteers</span></strong></h3>
+                <h3 class="wow fadeIn" style=""><strong><span style="text-decoration: underline;">Volunteers</span></strong></h3>
 
                 <div class="wrapper-latest-features-content">
                     <div class="tab">

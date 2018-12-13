@@ -21,14 +21,15 @@
 @endsection
 
 @section('content')
-    <section id="sustainable-development" class="wow fadeIn">
+    <section id="sustainable-development">
         <div class="container">
             <div class="intro-flex">
                 <h2 style="text-align: center;"><strong>What are the Sustainable development goals?</strong></h2>
 
                 <div class="sustainable-development-intro-image">
                     <img class="vc_single_image-img "
-                         src="{{ asset('images/E_2018_SDG_Poster_without_UN_emblem_Letter-US-500x300.png') }}" width="500" height="300"
+                         src="{{ asset('images/E_2018_SDG_Poster_without_UN_emblem_Letter-US-500x300.png') }}"
+                         width="500" height="300"
                          alt="E_2018_SDG_Poster_without_UN_emblem_Letter US">
                 </div>
             </div>
@@ -45,20 +46,16 @@
 
             <div class="sustainable-development-wrapper-intro-text">
                 <div class="sustainable-development-intro-text">
-                    <h2 style="text-align: center;">Which goals are compatible with AidSpace?</h2>
+                    <h2>Which goals are compatible with AidSpace?</h2>
 
-
-                    <h4 style="text-align: left;">Sustainable development goal #8 – decent work and economic growth</h4>
-                    <p style="text-align: left;"><span style="color: #333144;"><span lang="en-US">Companies that uphold labor standards across their own operations and value chains achieve positive reputation and legal stability. </span></span>
-                    </p>
-                    <p style="text-align: left;"><span style="color: #333144;"><span lang="en-US">Embracing diversity and inclusion will also lead to greater access to skilled and productive talent</span></span>.
-                    </p>
-
-                    <h4 style="text-align: left;">Sustainable development goal # 17 – partnerships</h4>
-                    <p style="text-align: left;"><span style="color: #333144;"><span lang="en-US">Make multi-collaborator partnerships to mobilize and share knowledge, expertise, technologies and financial resources to support the goals in all countries, particularly developing countries. </span></span>
-                    </p>
-                    <p style="text-align: left;"><span style="color: #333144;"><span lang="en-US">It further seeks to encourage and promote effective public, public-private and civil society alliances built on the experience and resourcing strategies of partnerships.</span></span>.
-                    </p>
+                    <div class="wow fadeIn">
+                        <h4>Sustainable development goal #8 – decent work and economic growth</h4>
+                        <p><span><span>Companies that uphold labor standards across their own operations and value chains achieve positive reputation and legal stability. </span></span></p>
+                        <p><span><span>Embracing diversity and inclusion will also lead to greater access to skilled and productive talent</span></span>.</p>
+                        <h4>Sustainable development goal # 17 – partnerships</h4>
+                        <p><span><span>Make multi-collaborator partnerships to mobilize and share knowledge, expertise, technologies and financial resources to support the goals in all countries, particularly developing countries. </span></span></p>
+                        <p><span><span>It further seeks to encourage and promote effective public, public-private and civil society alliances built on the experience and resourcing strategies of partnerships.</span></span>.</p>
+                    </div>
                 </div>
             </div>
 

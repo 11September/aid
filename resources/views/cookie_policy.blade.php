@@ -21,7 +21,7 @@
 @endsection
 
 @section('content')
-    <section class="wow fadeIn terms-of-service">
+    <section class="terms-of-service">
         <div class="intro-flex">
             <h1>Cookie policy</h1>
         </div>

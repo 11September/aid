@@ -22,14 +22,14 @@
 @endsection
 
 @section('content')
-    <section id="aidSpace-maps" class="wow fadeIn roadmap">
+    <section id="aidSpace-maps" class="wow animated fadeIn roadmap">
         <div class="intro-flex">
             <h1>AidSpace Maps</h1>
             <h3>Helps you stay on track with your people and their assignment location.</h3>
         </div>
     </section>
 
-    <section class="aidSpace-people-how-it-works">
+    <section class="aidSpace-people-how-it-works wow animated fadeIn">
         <div class="container">
             <div class="wrapper-how-it-works-blocks">
                 <div class="row">
@@ -59,7 +59,7 @@
         </div>
     </section>
 
-    <section class="aidSpace-people-main-features">
+    <section class="aidSpace-people-main-features wow animated fadeIn">
         <div class="container">
             <h2>Main features</h2>
 
@@ -100,7 +100,7 @@
         </div>
     </section>
 
-    <section id="aidSpace-maps-how-it-works" class="aidSpace-people-subintro-texts">
+    <section id="aidSpace-maps-how-it-works" class="aidSpace-people-subintro-texts wow animated fadeIn">
         <div class="container">
             <h2>How it works</h2>
 
@@ -129,7 +129,7 @@
 
     <section class="aidSpace-people-slider">
         <div class="container">
-            <h2>Screenshots</h2>
+            <h2 class="wow animated fadeIn">Screenshots</h2>
 
             <div id="slider">
                 <div class="owl-carousel">

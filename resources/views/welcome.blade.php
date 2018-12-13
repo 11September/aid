@@ -21,7 +21,7 @@
 @endsection
 
 @section('content')
-    <section class="wow fadeIn intro">
+    <section class="wow animated fadeIn intro">
         <div class="intro-flex">
             <h1>AidSpace Volunteers</h1>
             <h3>Helping organisations managing volunteers, <br>
@@ -65,11 +65,10 @@
 
     <section class="latest-features">
         <div class="container">
-            <h2>Latest features available on AidSpace Volunteers</h2>
+            <h2 class="wow animated fadeIn">Latest features available on AidSpace Volunteers</h2>
 
             <div class="wrapper-latest-features-content">
                 <div class="tab">
-
 
                     <button href="#" class="tab-item tablinks" onclick="openCity(event, 'Dashboard')" id="defaultOpen">
                         <i class="vc_tta-icon fa fa-newspaper-o"></i>Dashboard updates feed
@@ -111,6 +110,12 @@
                         <i class="vc_tta-icon fa fa-search"></i>More advanced search options
                     </button>
 
+                </div>
+
+                <div id="Dashboard" class="tabcontent Dashboard">
+                    <div class="tabcontent-content vc_box_shadow_3d box_shadow">
+                        <img width="1635" height="823" src="{{ asset('images/dashboard-updates-feed.png') }}" alt="Updates feed in Dashboard">
+                    </div>
                 </div>
 
                 <div id="Dashboard" class="tabcontent">
@@ -214,11 +219,11 @@
 
     <section class="unique-advantages">
         <div class="container">
-            <h2 style="text-align: center;">Unique advantages</h2>
+            <h2 class="wow animated fadeIn">Unique advantages</h2>
 
             <div class="row wrapper-unique-advantages-content">
                 <div class="col-md-4">
-                    <div class="unique-advantages-item">
+                    <div class="unique-advantages-item wow animated fadeIn">
                         <div class="unique-advantages-item-image">
                             <i class="icon fa fa-heart" style=" "></i>
                         </div>
@@ -230,7 +235,7 @@
                 </div>
 
                 <div class="col-md-4">
-                    <div class="unique-advantages-item">
+                    <div class="unique-advantages-item wow animated fadeIn">
                         <div class="unique-advantages-item-image">
                             <i class="icon fa fa-signal"></i>
                         </div>
@@ -242,7 +247,7 @@
                 </div>
 
                 <div class="col-md-4">
-                    <div class="unique-advantages-item">
+                    <div class="unique-advantages-item wow animated fadeIn">
                         <div class="unique-advantages-item-image">
                             <i class="icon fa fa-envelope-o"></i>
                         </div>
@@ -254,7 +259,7 @@
                 </div>
 
                 <div class="col-md-4">
-                    <div class="unique-advantages-item">
+                    <div class="unique-advantages-item wow animated fadeIn">
                         <div class="unique-advantages-item-image">
                             <i class="icon fa fa-users"></i>
                         </div>
@@ -267,7 +272,7 @@
                 </div>
 
                 <div class="col-md-4">
-                    <div class="unique-advantages-item">
+                    <div class="unique-advantages-item wow animated fadeIn">
                         <div class="unique-advantages-item-image">
                             <i class="icon fa fa-comments"></i>
                         </div>
@@ -280,7 +285,7 @@
                 </div>
 
                 <div class="col-md-4">
-                    <div class="unique-advantages-item">
+                    <div class="unique-advantages-item wow animated fadeIn">
                         <div class="unique-advantages-item-image">
                             <i class="icon fa fa-lock"></i>
                         </div>
@@ -293,7 +298,7 @@
                 </div>
 
                 <div class="col-md-4">
-                    <div class="unique-advantages-item">
+                    <div class="unique-advantages-item wow animated fadeIn">
                         <div class="unique-advantages-item-image">
                             <i class="icon fa fa-location-arrow"></i>
                         </div>
@@ -307,7 +312,7 @@
                 </div>
 
                 <div class="col-md-4">
-                    <div class="unique-advantages-item">
+                    <div class="unique-advantages-item wow animated fadeIn">
                         <div class="unique-advantages-item-image">
                             <i class="icon fa fa-book"></i>
                         </div>
@@ -320,7 +325,7 @@
                 </div>
 
                 <div class="col-md-4">
-                    <div class="unique-advantages-item">
+                    <div class="unique-advantages-item wow animated fadeIn">
                         <div class="unique-advantages-item-image">
                             <i class="icon fa fa-hdd-o"></i>
                         </div>
@@ -333,7 +338,7 @@
                 </div>
 
                 <div class="col-md-4">
-                    <div class="unique-advantages-item">
+                    <div class="unique-advantages-item wow animated fadeIn">
                         <div class="unique-advantages-item-image">
                             <i class="icon fa fa-eye-slash"></i>
                         </div>
@@ -347,7 +352,7 @@
                 </div>
 
                 <div class="col-md-4">
-                    <div class="unique-advantages-item">
+                    <div class="unique-advantages-item wow animated fadeIn">
                         <div class="unique-advantages-item-image">
                             <i class="icon fa fa-compass"></i>
                         </div>
@@ -361,7 +366,7 @@
                 </div>
 
                 <div class="col-md-4">
-                    <div class="unique-advantages-item">
+                    <div class="unique-advantages-item wow animated fadeIn">
                         <div class="unique-advantages-item-image">
                             <i class="icon fa fa-cloud"></i>
                         </div>

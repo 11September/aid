@@ -23,14 +23,14 @@
 
 @section('content')
 
-    <section id="aidSpace-people" class="wow fadeIn roadmap">
+    <section id="aidSpace-people" class="roadmap">
         <div class="intro-flex">
             <h1>AidSpace People</h1>
-            <h3>People and cases management system</h3>
+            <h3 class="wow animated fadeIn delay-1s">People and cases management system</h3>
         </div>
     </section>
 
-    <section class="aidSpace-people-subintro-texts">
+    <section class="aidSpace-people-subintro-texts wow animated fadeIn">
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
@@ -56,7 +56,7 @@
         </div>
     </section>
 
-    <section class="aidSpace-people-main-features">
+    <section class="aidSpace-people-main-features wow animated fadeIn">
         <div class="container">
             <h2>Main features</h2>
 
@@ -101,7 +101,7 @@
         </div>
     </section>
 
-    <section class="aidSpace-people-how-it-works">
+    <section class="aidSpace-people-how-it-works wow animated fadeIn">
         <div class="container">
             <h2>How it works</h2>
 

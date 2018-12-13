@@ -128,7 +128,6 @@ span {
     color: #5da6c0;
     text-decoration: none;
 }
-
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
@@ -596,8 +595,10 @@ body.mobile-nav-active #mobile-nav-toggle i {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
+    justify-content: flex-start;
     border-radius: 5px;
     color: #666;
+    text-align: left;
     cursor: default;
     text-decoration: none;
     outline: none;
@@ -656,6 +657,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
 }
 
 .unique-advantages h2 {
+    text-align: center;
     margin-bottom: 35px;
     color: #294e5b;
     font-family: Montserrat;
@@ -1855,9 +1857,17 @@ p.accordion.active:before {
     padding: 55px 0 30px 0;
 }
 
+.sustainable-development-wrapper-intro-text h2{
+    text-align: center;
+}
+
 .sustainable-development-wrapper-intro-text h4,
 .sustainable-development-wrapper-intro-text p{
     text-align: left;
+}
+
+.sustainable-development-wrapper-intro-text span{
+    color: #333144;
 }
 
 .sustainable-development-wrapper-intro-text h4{
@@ -2226,3 +2236,24 @@ span.img-text:hover {
         text-align: center;
     }
 }
+
+@media (max-width: 576px) {
+    #logo{
+        margin-left: 30px;
+    }
+
+    #mobile-nav-toggle{
+        right: 50px;
+    }
+}
+
+@media (max-width: 400px) {
+    #logo{
+        margin-left: 15px;
+    }
+
+    #mobile-nav-toggle{
+        right: 30px;
+    }
+}
+
