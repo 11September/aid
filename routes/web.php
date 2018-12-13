@@ -26,4 +26,4 @@ Route::get("/legal/cookie-policy", "PagesController@cookie_policy");
 Route::get("/legal/privacy-policy", "PagesController@privacy_policy");
 Route::get("/legal/gdpr", "PagesController@gdpr");
 
-Route::post("/legal/gdpr", "PagesController@email");
+Route::post("/mail", "PagesController@email");

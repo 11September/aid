@@ -73,6 +73,49 @@ class PagesController extends Controller
 
     public function email(Request $request)
     {
+        $request->validate([
+            'email' => 'required|max:255',
+            'message' => 'required|max:255',
+            'name' => 'max:255',
+            'subject' => 'max:255',
+        ]);
+
+        $to = 'info@kitweb.pro';
+        $subject = 'Get in touch form aidspace.io';
+
+        $message = "
+            <html>
+            <head>
+            <title>HTML email</title>
+            </head>
+            <body>
+            <p>New Application from aidspace.io!</p>
+            
+            <table>
+            <tr>
+            <th>name</th>
+            <th>email</th>
+            <th>subject</th>
+            <th>message</th>
+            </tr>
+            <tr>
+            <td>$request->name</td>
+            <td>$request->email</td>
+            <td>$request->subject</td>
+            <td>$request->message</td>
+            </tr>
+            </table>
+            
+            </body>
+            </html>
+            ";
+
+        if (mail($to, $subject, $message)){
+            return redirect()->back()->with('success','Message sent!');
+        }else{
+            return redirect()->back()->with('error','Oops! Something went wrong!');
+        }
+
 
     }
 

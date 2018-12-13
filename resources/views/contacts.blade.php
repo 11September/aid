@@ -27,26 +27,56 @@
             <div class="row">
                 <div class="col-md-4 offset-md-4">
                     <div class="contacts-page-wrapper-form">
-                        <form>
+
+
+                        @if ($message = Session::get('success'))
+                            <div class="alert alert-success alert-block">
+                                <button type="button" class="close" data-dismiss="alert">×</button>
+                                <strong>{{ $message }}</strong>
+                            </div>
+                        @endif
+
+
+                        @if ($message = Session::get('error'))
+                            <div class="alert alert-danger alert-block">
+                                <button type="button" class="close" data-dismiss="alert">×</button>
+                                <strong>{{ $message }}</strong>
+                            </div>
+                        @endif
+
+                        <form action="{{ action('PagesController@email') }}" method="post">
+                            {{ csrf_field() }}
+
                             <div class="form-group">
                                 <label for="email">Your Email (required)</label>
-                                <input type="email" class="form-control" id="email">
+                                <input name="email" type="email" class="form-control" id="email" required>
                             </div>
                             <div class="form-group">
                                 <label for="name">Your name</label>
-                                <input type="text" class="form-control" id="name">
+                                <input name="name" type="text" class="form-control" id="name">
                             </div>
                             <div class="form-group">
                                 <label for="subject">Subject</label>
-                                <input type="text" class="form-control" id="subject">
+                                <input name="subject" type="text" class="form-control" id="subject">
                             </div>
                             <div class="form-group">
                                 <label for="message">Your message (required)</label>
-                                <textarea class="form-control" id="message" rows="10" cols="40"></textarea>
+                                <textarea name="message" class="form-control" id="message" rows="10" cols="40" required></textarea>
                             </div>
 
                             <input type="submit" value="Send" class="wpcf7-form-control wpcf7-submit sign-up-button">
                         </form>
+
+                        @if ($errors->any())
+                            <div class="alert alert-danger">
+                                <ul>
+                                    @foreach ($errors->all() as $error)
+                                        <li>{{ $error }}</li>
+                                    @endforeach
+                                </ul>
+                            </div>
+                        @endif
+
                     </div>
                 </div>
             </div>
