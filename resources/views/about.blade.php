@@ -232,41 +232,31 @@
                     <div class="get-touch-wrapper-form">
                         <div class="get-touch-form">
 
-                            <form id="aidspace-newsletter-1" class="yikes-easy-mc-form yikes-easy-mc-form-1  "
-                                  method="POST"
-                                  data-attr-form-id="1">
-                                <label for="yikes-easy-mc-form-1-EMAIL"
-                                       class="EMAIL-label yikes-mailchimp-field-required ">
+                            <form id="aidspace-newsletter-1" class="yikes-easy-mc-form yikes-easy-mc-form-1" method="POST"
+                                  action="https://aidspace.us12.list-manage.com/subscribe/post?u=aff9c8dceafd8565c394ad5ac&amp;id=18f774a4db"
+                                  target="_blank">
+                                <label for="yikes-easy-mc-form-1-EMAIL" class="EMAIL-label yikes-mailchimp-field-required ">
                                     <!-- dictate label visibility -->
-                                    <span class="EMAIL-label">Email address</span>
+                                    <span class="EMAIL-label">Email address *</span>
                                     <!-- Description Above -->
-                                    <input id="yikes-easy-mc-form-1-EMAIL" name="EMAIL" placeholder=""
-                                           class="yikes-easy-mc-email " required="required" type="email" value="">
+                                    <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" required="required">
                                     <!-- Description Below -->
                                 </label>
 
-                                <!-- Honeypot Trap -->
-                                <input type="hidden" name="yikes-mailchimp-honeypot" id="yikes-mailchimp-honeypot-1"
-                                       value="">
-
-                                <!-- List ID -->
-                                <input type="hidden" name="yikes-mailchimp-associated-list-id"
-                                       id="yikes-mailchimp-associated-list-id-1" value="18f774a4db">
-
-                                <!-- The form that is being submitted! Used to display error/success messages above the correct form -->
-                                <input type="hidden" name="yikes-mailchimp-submitted-form"
-                                       id="yikes-mailchimp-submitted-form-1"
-                                       value="1">
+                                <div id="mce-responses" class="clear">
+                                    <div class="response" id="mce-error-response" style="display:none"></div>
+                                    <div class="response" id="mce-success-response" style="display:none"></div>
+                                </div>
+                                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                                <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                                    <input type="text" name="b_aff9c8dceafd8565c394ad5ac_18f774a4db" tabindex="-1" value="">
+                                </div>
 
                                 <!-- Submit Button -->
                                 <button type="submit"
                                         class="sign-up-button yikes-easy-mc-submit-button yikes-easy-mc-submit-button-1 btn btn-primary vc_general vc_btn3 vc_btn3-size-lg vc_btn3-shape-rounded vc_btn3-style-custom button-blue">
-                                    <span class="yikes-mailchimp-submit-button-span-text">SUBSCRIBE</span></button>
-                                <!-- Nonce Security Check -->
-                                <input type="hidden" id="yikes_easy_mc_new_subscriber_1"
-                                       name="yikes_easy_mc_new_subscriber"
-                                       value="d4e3c305b8">
-                                <input type="hidden" name="_wp_http_referer" value="/">
+                                    <span class="yikes-mailchimp-submit-button-span-text">SUBSCRIBE</span>
+                                </button>
                             </form>
 
                         </div>

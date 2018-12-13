@@ -71,4 +71,9 @@ class PagesController extends Controller
         return view('gdpr');
     }
 
+    public function email(Request $request)
+    {
+
+    }
+
 }
