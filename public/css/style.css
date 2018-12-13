@@ -144,6 +144,10 @@ span {
     transition: all 0.5s ease;
 }
 
+#header .container{
+    position: relative;
+}
+
 #header #logo h1 {
     color: #505050;
     font-family: "Philosopher", sans-serif;
@@ -309,7 +313,7 @@ span {
     right: 0;
     top: 0;
     z-index: 999;
-    margin: 4px 20px 0 0;
+    margin: 20px 40px 0 0;
     border: 0;
     background: none;
     font-size: 24px;
@@ -326,7 +330,12 @@ span {
 
 @media (max-width: 1024px) {
     #mobile-nav-toggle {
-        display: inline;
+        /*display: inline;*/
+
+        display: block;
+        right: 20px;
+        margin-right: 0;
+        position: absolute;
     }
 }
 
@@ -337,9 +346,13 @@ span {
     padding-top: 18px;
     bottom: 0;
     z-index: 998;
-    background: rgba(52, 59, 64, 0.9);
-    left: -260px;
-    width: 260px;
+    /*background: rgba(52, 59, 64, 0.9);*/
+    background: #ffffff;
+    /*left: -260px;*/
+    /*width: 260px;*/
+    left: -70%;
+    width: 70%;
+
     overflow-y: auto;
     transition: 0.4s;
 }
@@ -355,8 +368,7 @@ span {
 }
 
 #mobile-nav ul li a {
-    color: #fff;
-    font-size: 14px;
+    color: #292929;
     overflow: hidden;
     padding: 6px 22px 6px 15px;
     position: relative;
@@ -364,7 +376,17 @@ span {
     width: 100%;
     display: block;
     outline: none;
-    letter-spacing: 0;
+
+    font-family: Montserrat;
+    text-align: left;
+    text-transform: uppercase;
+    line-height: 60px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 14px;
+    opacity: 1;
+    visibility: visible;
 }
 
 #mobile-nav ul li a:hover {
@@ -1110,10 +1132,7 @@ footer a:hover{
 }
 
 .footer-bottom-item {
-    padding-top: 35px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-bottom: 35px;
+    padding: 35px 15px 35px 15px;
 }
 
 .footer-bottom-item a {
@@ -2148,5 +2167,62 @@ span.img-text:hover {
 @media (max-width: 1200px) {
     .nav-menu > li{
         margin-left: 0;
+    }
+}
+
+@media (max-width: 991px) {
+    .unique-advantages .unique-advantages-item{
+        padding: 10px 5px 5px 5px;
+    }
+
+    .unique-advantages .unique-advantages-item-content{
+         padding-right: unset;
+    }
+
+    .footer-top-item{
+        padding: 30px 0 0;
+    }
+
+    .footer-bottom-item{
+        padding: 30px 5px 30px 5px;
+    }
+}
+
+@media (max-width: 768px) {
+    .how-it-works-video-wrapper{
+        margin-top: 50px;
+    }
+
+    .development-goals{
+        padding: 100px 0 0 0;
+    }
+
+    .development-goals-wrapper .development-goals-content-block h4{
+        height: auto;
+        min-height: auto;
+        margin-bottom: 10px;
+    }
+
+    .sign_up{
+        padding: 50px 0 30px 0;
+    }
+
+    footer{
+        text-align: center;
+    }
+
+    .footer-bottom-item {
+        padding: 30px 5px 15px 5px;
+    }
+}
+
+@media (max-width: 600px) {
+    .intro .intro-flex {
+        padding: 0 10%;
+        text-align: center;
+    }
+
+    .how-it-works h2{
+        text-align: center;
     }
 }
