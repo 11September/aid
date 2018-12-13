@@ -75,6 +75,207 @@
             <h2 class="wow animated fadeIn">Latest features available on AidSpace Volunteers</h2>
 
             <div class="wrapper-latest-features-content">
+                <div class="accordion-mobile" id="accordion">
+                    <div class="card">
+                        <div class="card-header" id="headingOne">
+                            <button href="#" class="tab-item" data-toggle="collapse" data-target="#collapseOne"
+                                    aria-expanded="true" aria-controls="collapseOne">
+                                <i class="vc_tta-icon fa fa-newspaper-o"></i>Dashboard updates feed
+                            </button>
+                        </div>
+
+                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                             data-parent="#accordion">
+                            <div class="card-body">
+                                <div class="tabcontent-content vc_box_shadow_3d box_shadow">
+                                    <img width="1635" height="823"
+                                         src="{{ asset('images/dashboard-updates-feed.png') }}"
+                                         alt="Updates feed in Dashboard">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="card">
+                        <div class="card-header" id="headingTwo">
+                            <button href="#" class="tab-item" data-toggle="collapse" data-target="#collapseTwo"
+                                    aria-expanded="true" aria-controls="collapseOne">
+                                <i class="vc_tta-icon fa fa-envelope-o"></i>Inbox
+                            </button>
+                        </div>
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                            <div class="card-body">
+                                <div class="tabcontent-content vc_box_shadow_3d box_shadow">
+                                    <img width="1609" height="337"
+                                         src="{{ asset('images/Inbox-AidSpace-Volunteers.png') }}"
+                                         alt="volunteer management, inbox , new messages">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header" id="headingThree">
+                            <button href="#" class="tab-item" data-toggle="collapse" data-target="#collapseThree"
+                                    aria-expanded="true" aria-controls="collapseThree">
+                                <i class="vc_tta-icon fa fa-calendar"></i>Scheduling module
+                            </button>
+                        </div>
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                             data-parent="#accordion">
+                            <div class="card-body">
+                                <div class="tabcontent-content vc_box_shadow_3d box_shadow">
+                                    <img width="1633" height="837"
+                                         src="{{ asset('images/scheduling-module-2.png') }}"
+                                         alt="List of volnteers and their assignments in Schedule module">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="card">
+                        <div class="card-header" id="headingFour">
+                            <button href="#" class="tab-item" data-toggle="collapse" data-target="#collapseFour"
+                                    aria-expanded="true" aria-controls="collapseFour">
+                                <i class="vc_tta-icon fa fa-calendar-check-o"></i>Event module
+                            </button>
+                        </div>
+                        <div id="collapseFour" class="collapse" aria-labelledby="headingFour"
+                             data-parent="#accordion">
+                            <div class="card-body">
+                                <div class="tabcontent-content vc_box_shadow_3d box_shadow">
+                                    <img width="1644" height="816"
+                                         src="{{ asset('images/events-module-1.png') }}" alt="Event, events module">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header" id="headingFive">
+                            <button href="#" class="tab-item" data-toggle="collapse" data-target="#collapseFive"
+                                    aria-expanded="true" aria-controls="collapseFive">
+                                <i class="vc_tta-icon fa fa-book"></i>Tutorials and Guides
+                            </button>
+                        </div>
+                        <div id="collapseFive" class="collapse" aria-labelledby="headingFive"
+                             data-parent="#accordion">
+                            <div class="card-body">
+                                <div class="tabcontent-content vc_box_shadow_3d box_shadow">
+                                    <img width="1878" height="1034"
+                                         src="{{ asset('images/tutorials-and-guides.png') }}"
+                                         alt="Tutorials for volunteers, tutorials for administrators">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header" id="headingSix">
+                            <button href="#" class="tab-item" data-toggle="collapse" data-target="#collapseSix"
+                                    aria-expanded="true" aria-controls="collapseSix">
+                                <i class="vc_tta-icon fa fa-history"></i>Work history
+                            </button>
+                        </div>
+                        <div id="collapseSix" class="collapse" aria-labelledby="headingSix"
+                             data-parent="#accordion">
+                            <div class="card-body">
+                                <div class="tabcontent-content vc_box_shadow_3d box_shadow">
+                                    <img width="1590" height="885"
+                                         src="{{ asset('images/work-history.png') }}"
+                                         alt="Work history of the volunteer, work experience of the volunteer">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="card">
+                        <div class="card-header" id="headingSeven">
+                            <button href="#" class="tab-item" data-toggle="collapse" data-target="#collapseSeven"
+                                    aria-expanded="true" aria-controls="collapseSeven">
+                                <i class="vc_tta-icon fa fa-print"></i>Report print
+                            </button>
+                        </div>
+                        <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven"
+                             data-parent="#accordion">
+                            <div class="card-body">
+                                <div class="tabcontent-content vc_box_shadow_3d box_shadow">
+                                    <img width="1613" height="718"
+                                         src="{{ asset('images/reports-print-1.png') }}"
+                                         alt="Reports print, printing reports for admins or coordinators">
+                                </div>
+
+                                <div class="tabcontent-content vc_box_shadow_3d box_shadow">
+                                    <img width="1858" height="916"
+                                         src="{{ asset('images/reports-print-2.png') }}" alt="Print report preview, report print">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header" id="headingEight">
+                            <button href="#" class="tab-item" data-toggle="collapse" data-target="#collapseEight"
+                                    aria-expanded="true" aria-controls="collapseEight">
+                                <i class="vc_tta-icon fa fa-check"></i>Volunteer availability
+                            </button>
+                        </div>
+                        <div id="collapseEight" class="collapse" aria-labelledby="headingEight"
+                             data-parent="#accordion">
+                            <div class="card-body">
+                                <div class="tabcontent-content vc_box_shadow_3d box_shadow">
+                                    <img width="1335" height="811"
+                                         src="{{ asset('images/volunteer-availability-1.png') }}"
+                                         alt="Availability of the volunteer, aidspace, volutneer availability">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header" id="headingNine">
+                            <button href="#" class="tab-item" data-toggle="collapse" data-target="#collapseNine"
+                                    aria-expanded="true" aria-controls="collapseNine">
+                                <i class="vc_tta-icon fa fa-bullhorn"></i>Automated email notifications
+                            </button>
+                        </div>
+                        <div id="collapseNine" class="collapse" aria-labelledby="headingNine"
+                             data-parent="#accordion">
+                            <div class="card-body">
+                                <div class="tabcontent-content vc_box_shadow_3d box_shadow">
+                                    <img width="1400" height="788"
+                                         src="{{ asset('images/automated-email-notifications-1.png') }}"
+                                         alt="Automated email notifications; shifts; awaiting approval; rejected shifts">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header" id="headingTen">
+                            <button href="#" class="tab-item" data-toggle="collapse" data-target="#collapseTen"
+                                    aria-expanded="true" aria-controls="collapseTen">
+                                <i class="vc_tta-icon fa fa-search"></i>More advanced search options
+                            </button>
+                        </div>
+                        <div id="collapseTen" class="collapse" aria-labelledby="headingTen"
+                             data-parent="#accordion">
+                            <div class="card-body">
+                                <div class="tabcontent-content vc_box_shadow_3d box_shadow">
+                                    <img class="vc_single_image-img "
+                                         src="{{ asset('images/advanced-search-options-1017x566.png') }}"
+                                         width="1017" height="566"
+                                         alt="Advanced search in admin or coordinator profile; volunteers search; match volunteer profile">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
                 <div class="tab">
 
                     <button href="#" class="tab-item tablinks" onclick="openCity(event, 'Dashboard')" id="defaultOpen">
@@ -117,13 +318,6 @@
                         <i class="vc_tta-icon fa fa-search"></i>More advanced search options
                     </button>
 
-                </div>
-
-                <div id="Dashboard" class="tabcontent Dashboard">
-                    <div class="tabcontent-content vc_box_shadow_3d box_shadow">
-                        <img width="1635" height="823" src="{{ asset('images/dashboard-updates-feed.png') }}"
-                             alt="Updates feed in Dashboard">
-                    </div>
                 </div>
 
                 <div id="Dashboard" class="tabcontent">
@@ -223,8 +417,6 @@
                 </div>
             </div>
         </div>
-
-
     </section>
 
     <section class="unique-advantages">
@@ -496,7 +688,8 @@
                             <!-- dictate label visibility -->
                             <span class="EMAIL-label">Email address *</span>
                             <!-- Description Above -->
-                            <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" required="required">
+                            <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL"
+                                   required="required">
                             <!-- Description Below -->
                         </label>
 

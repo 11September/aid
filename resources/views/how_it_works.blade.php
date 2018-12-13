@@ -32,6 +32,78 @@
     <section class="latest-features" id="how-it-works-features">
         <div class="container">
             <div class="wrapper-latest-features-content">
+
+
+                <div class="accordion-mobile" id="accordion">
+                    <div class="card">
+                        <div class="card-header" id="headingOne">
+                            <button href="#" class="tab-item" data-toggle="collapse" data-target="#collapseOne"
+                                    aria-expanded="true" aria-controls="collapseOne">
+                                My profile
+                            </button>
+                        </div>
+
+                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                             data-parent="#accordion">
+                            <div class="card-body">
+                                    <p><strong>Choose different options for your own profile.</strong></p>
+                                    <p><span style="font-weight: 400;">Click on the profile image on top right of yor screen</span><span
+                                            style="font-weight: 400;">&nbsp;and from the menu choose My profile.</span></p>
+
+                                    <div class="tabcontent-content vc_box_shadow_3d box_shadow">
+                                        <img width="1024" height="318" src="{{ asset('images/My-profie-1024x318.png') }}"
+                                             alt="volunteer administrator, coordinator, tutorials, my profile administrator coordinator">
+                                    </div>
+
+                                    <div class="tabcontent-content vc_box_shadow_3d box_shadow">
+                                        <img width="1024" height="307"
+                                             src="{{ asset('images/my-profile-2-1024x307.png') }}"
+                                             alt="volunteer administrator, coordinator, tutorials, my profile administrator coordinator">
+                                    </div>
+
+                                    <ol>
+                                        <li style="font-weight: 400;"><span style="font-weight: 400;">Edit my profile – </span>
+                                            <ul>
+                                                <li style="font-weight: 400;"><span style="font-weight: 400;">Change your current password or </span><span
+                                                        style="font-weight: 400;">assign yourself to a group (or all groups) and area (or all areas).</span>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ol>
+
+                                    <div class="tabcontent-content vc_box_shadow_3d box_shadow">
+                                        <img width="875" height="815"
+                                             src="{{ asset('images/my-profile-3.png') }}"
+                                             alt="volunteer administrator, coordinator, tutorials, settings module, edit user">
+                                    </div>
+
+                                    <ul>
+                                        <li style="font-weight: 400;"><span style="font-weight: 400;">If you are to be responsible for all volunteers in the organisation in many matters and occasions scroll down to the bottom of the pop up and check &nbsp;“Can see all volunteers”. This is how it should look like once you chose the option</span><span
+                                                style="font-weight: 400;">. &nbsp;This could help you assign a volunteer that does not belong to a certain group or area to a shift or task.</span>
+                                        </li>
+                                    </ul>
+
+                                    <div class="tabcontent-content vc_box_shadow_3d box_shadow">
+                                        <img width="870" height="807"
+                                             src="{{ asset('images/my-profile-4.png') }}"
+                                             class="vc_single_image-img attachment-large"
+                                             alt="volunteer administrator, coordinator, tutorials, settings module, edit user">
+                                    </div>
+
+                                    <p><span style="font-weight: 400;">&nbsp; &nbsp; &nbsp; 2. Change role. </span><span
+                                            style="font-weight: 400;">If you are an administrator you cannot change your status to coordinator. If circumstances require such action please contact us at </span><span
+                                            style="text-decoration: underline;"><a href="mailto:info@aidspace.io"><span
+                                                    style="font-weight: 400;">info@aidspace.io</span></a></span><span
+                                            style="font-weight: 400;"> and provide us with information on the request. </span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
                 <div class="tab">
                     <button href="#" class="tab-item tablinks" onclick="openTabs(event, 'MyProfile')" id="defaultOpen">
                         My profile

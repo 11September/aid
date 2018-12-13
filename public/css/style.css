@@ -128,6 +128,46 @@ span {
     color: #5da6c0;
     text-decoration: none;
 }
+
+/* accordion-mobile */
+.accordion-mobile{
+    display: none;
+    width: 100%;
+}
+
+.accordion-mobile .card{
+    margin-bottom: 20px;
+    border: none;
+}
+
+.accordion-mobile .card-header{
+    border: none;
+    padding: 0;
+    margin: 0;
+    background: none;
+    border-radius: unset;
+}
+
+.accordion-mobile .card-header button{
+    color: #294e5b;
+    letter-spacing: 0.2px;
+    font-family: Montserrat;
+    text-transform: capitalize;
+    line-height: 30px;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 18px;
+}
+
+.accordion-mobile .card-header button .fa{
+    font-size: 24px;
+    color: #294e5b;
+    width: 30px;
+    height: 30px;
+}
+/* accordion-mobile end */
+
+
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
@@ -2180,7 +2220,6 @@ span.img-text:hover {
     color: #2caae1;
 }
 
-
 /*--------------------------------------------------------------
 # Media
 --------------------------------------------------------------*/
@@ -2262,6 +2301,23 @@ span.img-text:hover {
 
     .aidSpace-people-how-it-works .wrapper-how-it-works-blocks{
         margin-top: 0;
+    }
+
+
+    .accordion-mobile{
+        display: block;
+    }
+
+    .wrapper-latest-features-content .tab{
+        display: none;
+    }
+
+    .wrapper-latest-features-content .tabcontent{
+        display: none !important;
+    }
+
+    .wrapper-latest-features-content #Dashboard{
+        display: none;
     }
 }
 
