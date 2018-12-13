@@ -1848,6 +1848,11 @@ p.accordion.active:before {
     margin-bottom: 80px;
 }
 
+.sustainable-development-intro-image img{
+    width: 100%;
+    height: auto;
+}
+
 .sustainable-development-intro-text{
     border-bottom: 1px groove #294e5b;
     padding: 0 0 35px 0;
@@ -1914,6 +1919,11 @@ p.accordion.active:before {
     border-radius: 0;
     -webkit-box-shadow: 0 0 5px rgba(0,0,0,.1);
     box-shadow: 0 0 5px rgba(0,0,0,.1);
+}
+
+.global-goal-image-wrapper img{
+    width: 100%;
+    height: auto;
 }
 
 #sustainable-development-page-global-goal p{
@@ -2224,6 +2234,35 @@ span.img-text:hover {
     .footer-bottom-item {
         padding: 30px 5px 15px 5px;
     }
+
+
+    .share-your-ideas-text, .share-your-ideas-form{
+        padding-right: 0;
+    }
+
+    .share-your-ideas-form{
+        margin-top: 50px;
+    }
+
+    .about-page-unique .about-page-unique-item{
+        min-height: auto;
+    }
+
+    #about-page .about-page-intro h3{
+        text-align: center;
+    }
+
+    .roadmap h1{
+        text-align: center;
+    }
+
+    .how-it-works-block{
+         min-height: auto;
+    }
+
+    .aidSpace-people-how-it-works .wrapper-how-it-works-blocks{
+        margin-top: 0;
+    }
 }
 
 @media (max-width: 600px) {
@@ -2245,6 +2284,10 @@ span.img-text:hover {
     #mobile-nav-toggle{
         right: 50px;
     }
+
+    .contacts-page .contacts-page-wrapper-form{
+        padding: 0 10%;
+    }
 }
 
 @media (max-width: 400px) {
@@ -2254,6 +2297,19 @@ span.img-text:hover {
 
     #mobile-nav-toggle{
         right: 30px;
+    }
+
+    #about-page .about-page-intro img{
+        width: 100%;
+    }
+
+    .wrapper-global-goal-images{
+        margin-bottom: 50px;
+    }
+
+    .global-goal-images{
+        height: auto;
+        margin-bottom: 30px;
     }
 }
 

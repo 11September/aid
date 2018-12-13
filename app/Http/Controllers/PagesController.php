@@ -83,6 +83,10 @@ class PagesController extends Controller
         $to = 'info@kitweb.pro';
         $subject = 'Get in touch form aidspace.io';
 
+        $headers= "MIME-Version: 1.0\r\n";
+        $headers .= 'From: info@wisp.my' . "\r\n";
+        $headers .= "Content-type: text/html; charset=utf-8\r\n";
+
         $message = "
             <html>
             <head>
@@ -91,7 +95,7 @@ class PagesController extends Controller
             <body>
             <p>New Application from aidspace.io!</p>
             
-            <table>
+            <table style='width: 100%;'>
             <tr>
             <th>name</th>
             <th>email</th>
@@ -110,7 +114,7 @@ class PagesController extends Controller
             </html>
             ";
 
-        if (mail($to, $subject, $message)){
+        if (mail($to, $subject, $message, $headers)){
             return redirect()->back()->with('success','Message sent!');
         }else{
             return redirect()->back()->with('error','Oops! Something went wrong!');

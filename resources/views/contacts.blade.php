@@ -25,7 +25,7 @@
         <div class="container">
             <h2>Get in touch now</h2>
             <div class="row">
-                <div class="col-md-4 offset-md-4">
+                <div class="col-lg-4 offset-lg-4 col-md-6 offset-md-3 col-sm-12">
                     <div class="contacts-page-wrapper-form">
 
 
