@@ -166,7 +166,6 @@ span {
 }
 /* accordion-mobile end */
 
-
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
@@ -255,25 +254,6 @@ span {
 
 .nav-menu ul li {
     min-width: 180px;
-}
-
-/* Nav Menu Arrows */
-.sf-arrows .sf-with-ul {
-    padding-right: 22px;
-}
-
-.sf-arrows .sf-with-ul:after {
-    content: "\f107";
-    position: absolute;
-    right: 8px;
-    margin-top: 1px;
-    font-family: FontAwesome;
-    font-style: normal;
-    font-weight: normal;
-}
-
-.sf-arrows ul .sf-with-ul:after {
-    content: "\f105";
 }
 
 /* Nav Meu Container */
@@ -1173,7 +1153,7 @@ footer a:hover{
 }
 
 .footer-bottom-item {
-    padding: 35px 15px 35px 15px;
+    padding: 35px 10px 35px 10px;
 }
 
 .footer-bottom-item a {
@@ -2226,6 +2206,10 @@ span.img-text:hover {
     .nav-menu > li{
         margin-left: 0;
     }
+
+    .owl-carousel .nav-btn{
+        top: 230px !important;
+    }
 }
 
 @media (max-width: 991px) {
@@ -2237,12 +2221,20 @@ span.img-text:hover {
          padding-right: unset;
     }
 
+    #how-it-works-features .wrapper-latest-features-content-2 .wrapper-latest-features-content{
+        padding-bottom: 50px;
+    }
+
     .footer-top-item{
         padding: 30px 0 0;
     }
 
     .footer-bottom-item{
         padding: 30px 5px 30px 5px;
+    }
+
+    .owl-carousel .nav-btn {
+        top: 160px !important;
     }
 }
 
@@ -2267,6 +2259,7 @@ span.img-text:hover {
 
     footer{
         text-align: center;
+        padding-bottom: 50px;
     }
 
     .footer-bottom-item {
@@ -2324,6 +2317,22 @@ span.img-text:hover {
     .wrapper-latest-features-content #Dashboard2{
         display: none !important;
     }
+
+    .roadmap .intro-flex{
+        padding: 0 10%;
+    }
+
+    .faq-features{
+        padding-bottom: 0;
+    }
+
+    .owl-nav{
+        display: block;
+    }
+
+    .owl-carousel .nav-btn {
+        top: 115px !important;
+    }
 }
 
 @media (max-width: 600px) {
@@ -2349,6 +2358,24 @@ span.img-text:hover {
     .contacts-page .contacts-page-wrapper-form{
         padding: 0 10%;
     }
+
+    #sustainable-development{
+        margin-top: 0;
+    }
+
+    .owl-carousel .nav-btn {
+        top: 100px !important;
+    }
+
+    .get-in-touch{
+        padding: 75px 0;
+    }
+}
+
+@media (max-width: 500px) {
+    .aidSpace-people-main-features-item{
+        padding: 30px 10px 10px 10px;
+    }
 }
 
 @media (max-width: 400px) {
@@ -2358,6 +2385,10 @@ span.img-text:hover {
 
     #mobile-nav-toggle{
         right: 30px;
+    }
+
+    .wrapper-sign-up-button a{
+        padding: 20px 50px 20px 50px;
     }
 
     #about-page .about-page-intro img{
@@ -2371,6 +2402,22 @@ span.img-text:hover {
     .global-goal-images{
         height: auto;
         margin-bottom: 30px;
+    }
+
+    .about-page-intro .logo{
+        margin-bottom: 35px;
+    }
+
+    #about-page .about-page-intro{
+        padding: 0 10%;
+    }
+
+    footer{
+        padding: 100px 20px 50px 20px;
+    }
+
+    .owl-carousel .nav-btn {
+        top: 70px !important;
     }
 }
 
