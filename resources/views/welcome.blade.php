@@ -17,21 +17,14 @@
 @endsection
 
 @section('css')
-    {{--<link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">--}}
-    {{--<style type="text/css">--}}
-    {{--#mc_embed_signup {--}}
-    {{--background: #fff;--}}
-    {{--clear: left;--}}
-    {{--font: 14px Helvetica, Arial, sans-serif;--}}
-    {{--}--}}
-    {{--</style>--}}
+
 @endsection
 
 @section('content')
-    <section class="wow animated fadeIn intro">
+    <section class="intro">
         <div class="intro-flex">
-            <h1>AidSpace Volunteers</h1>
-            <h3>Helping organisations managing volunteers, <br>
+            <h1 class="wow animated fadeIn">AidSpace Volunteers</h1>
+            <h3 class="wow animated fadeIn">Helping organisations managing volunteers, <br>
                 communication and work schedules.</h3>
 
             <div class="wrapper-sign-up-button">
