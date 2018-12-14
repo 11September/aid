@@ -252,9 +252,8 @@
                                     <input type="text" name="b_aff9c8dceafd8565c394ad5ac_18f774a4db" tabindex="-1" value="">
                                 </div>
 
-                                <!-- Submit Button -->
                                 <button type="submit"
-                                        class="sign-up-button yikes-easy-mc-submit-button yikes-easy-mc-submit-button-1 btn btn-primary vc_general vc_btn3 vc_btn3-size-lg vc_btn3-shape-rounded vc_btn3-style-custom button-blue">
+                                        class="sign-up-button yikes-easy-mc-submit-button">
                                     <span class="yikes-mailchimp-submit-button-span-text">SUBSCRIBE</span>
                                 </button>
                             </form>

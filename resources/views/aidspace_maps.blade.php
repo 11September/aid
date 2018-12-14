@@ -22,7 +22,7 @@
 @endsection
 
 @section('content')
-    <section id="aidSpace-maps" class="wow animated fadeIn roadmap">
+    <section id="aidSpace-maps" class="roadmap">
         <div class="intro-flex">
             <h1>AidSpace Maps</h1>
             <h3>Helps you stay on track with your people and their assignment location.</h3>

@@ -23,8 +23,8 @@
 @section('content')
     <section class="intro">
         <div class="intro-flex">
-            <h1 class="wow animated fadeIn">AidSpace Volunteers</h1>
-            <h3 class="wow animated fadeIn">Helping organisations managing volunteers, <br>
+            <h1>AidSpace Volunteers</h1>
+            <h3>Helping organisations managing volunteers, <br>
                 communication and work schedules.</h3>
 
             <div class="wrapper-sign-up-button">
@@ -33,7 +33,6 @@
             </div>
         </div>
     </section>
-
 
     <section class="how-it-works">
         <div class="container">
@@ -71,7 +70,7 @@
                 <div class="accordion-mobile" id="accordion">
                     <div class="card">
                         <div class="card-header" id="headingOne">
-                            <button href="#" class="tab-item" data-toggle="collapse" data-target="#collapseOne"
+                            <button class="tab-item" data-toggle="collapse" data-target="#collapseOne"
                                     aria-expanded="true" aria-controls="collapseOne">
                                 <i class="vc_tta-icon fa fa-newspaper-o"></i>Dashboard updates feed
                             </button>
@@ -92,7 +91,7 @@
 
                     <div class="card">
                         <div class="card-header" id="headingTwo">
-                            <button href="#" class="tab-item" data-toggle="collapse" data-target="#collapseTwo"
+                            <button class="tab-item" data-toggle="collapse" data-target="#collapseTwo"
                                     aria-expanded="true" aria-controls="collapseOne">
                                 <i class="vc_tta-icon fa fa-envelope-o"></i>Inbox
                             </button>
@@ -110,7 +109,7 @@
 
                     <div class="card">
                         <div class="card-header" id="headingThree">
-                            <button href="#" class="tab-item" data-toggle="collapse" data-target="#collapseThree"
+                            <button class="tab-item" data-toggle="collapse" data-target="#collapseThree"
                                     aria-expanded="true" aria-controls="collapseThree">
                                 <i class="vc_tta-icon fa fa-calendar"></i>Scheduling module
                             </button>
@@ -130,7 +129,7 @@
 
                     <div class="card">
                         <div class="card-header" id="headingFour">
-                            <button href="#" class="tab-item" data-toggle="collapse" data-target="#collapseFour"
+                            <button class="tab-item" data-toggle="collapse" data-target="#collapseFour"
                                     aria-expanded="true" aria-controls="collapseFour">
                                 <i class="vc_tta-icon fa fa-calendar-check-o"></i>Event module
                             </button>
@@ -148,7 +147,7 @@
 
                     <div class="card">
                         <div class="card-header" id="headingFive">
-                            <button href="#" class="tab-item" data-toggle="collapse" data-target="#collapseFive"
+                            <button class="tab-item" data-toggle="collapse" data-target="#collapseFive"
                                     aria-expanded="true" aria-controls="collapseFive">
                                 <i class="vc_tta-icon fa fa-book"></i>Tutorials and Guides
                             </button>
@@ -167,7 +166,7 @@
 
                     <div class="card">
                         <div class="card-header" id="headingSix">
-                            <button href="#" class="tab-item" data-toggle="collapse" data-target="#collapseSix"
+                            <button class="tab-item" data-toggle="collapse" data-target="#collapseSix"
                                     aria-expanded="true" aria-controls="collapseSix">
                                 <i class="vc_tta-icon fa fa-history"></i>Work history
                             </button>
@@ -187,7 +186,7 @@
 
                     <div class="card">
                         <div class="card-header" id="headingSeven">
-                            <button href="#" class="tab-item" data-toggle="collapse" data-target="#collapseSeven"
+                            <button class="tab-item" data-toggle="collapse" data-target="#collapseSeven"
                                     aria-expanded="true" aria-controls="collapseSeven">
                                 <i class="vc_tta-icon fa fa-print"></i>Report print
                             </button>
@@ -211,7 +210,7 @@
 
                     <div class="card">
                         <div class="card-header" id="headingEight">
-                            <button href="#" class="tab-item" data-toggle="collapse" data-target="#collapseEight"
+                            <button class="tab-item" data-toggle="collapse" data-target="#collapseEight"
                                     aria-expanded="true" aria-controls="collapseEight">
                                 <i class="vc_tta-icon fa fa-check"></i>Volunteer availability
                             </button>
@@ -230,7 +229,7 @@
 
                     <div class="card">
                         <div class="card-header" id="headingNine">
-                            <button href="#" class="tab-item" data-toggle="collapse" data-target="#collapseNine"
+                            <button class="tab-item" data-toggle="collapse" data-target="#collapseNine"
                                     aria-expanded="true" aria-controls="collapseNine">
                                 <i class="vc_tta-icon fa fa-bullhorn"></i>Automated email notifications
                             </button>
@@ -249,7 +248,7 @@
 
                     <div class="card">
                         <div class="card-header" id="headingTen">
-                            <button href="#" class="tab-item" data-toggle="collapse" data-target="#collapseTen"
+                            <button class="tab-item" data-toggle="collapse" data-target="#collapseTen"
                                     aria-expanded="true" aria-controls="collapseTen">
                                 <i class="vc_tta-icon fa fa-search"></i>More advanced search options
                             </button>
@@ -271,43 +270,43 @@
 
                 <div class="tab">
 
-                    <button href="#" class="tab-item tablinks" onclick="openCity(event, 'Dashboard')" id="defaultOpen">
+                    <button class="tab-item tablinks" onclick="openCity(event, 'Dashboard')" id="defaultOpen">
                         <i class="vc_tta-icon fa fa-newspaper-o"></i>Dashboard updates feed
                     </button>
 
-                    <button href="#" class="tab-item tablinks" onclick="openCity(event, 'Inbox')">
+                    <button class="tab-item tablinks" onclick="openCity(event, 'Inbox')">
                         <i class="vc_tta-icon fa fa-envelope-o"></i>Inbox
                     </button>
 
-                    <button href="#" class="tab-item tablinks" onclick="openCity(event, 'Scheduling')">
+                    <button class="tab-item tablinks" onclick="openCity(event, 'Scheduling')">
                         <i class="vc_tta-icon fa fa-calendar"></i>Scheduling module
                     </button>
 
-                    <button href="#" class="tab-item tablinks" onclick="openCity(event, 'Event')">
+                    <button class="tab-item tablinks" onclick="openCity(event, 'Event')">
                         <i class="vc_tta-icon fa fa-calendar-check-o"></i>Event module
                     </button>
 
-                    <button href="#" class="tab-item tablinks" onclick="openCity(event, 'Tutorials')">
+                    <button class="tab-item tablinks" onclick="openCity(event, 'Tutorials')">
                         <i class="vc_tta-icon fa fa-book"></i>Tutorials and Guides
                     </button>
 
-                    <button href="#" class="tab-item tablinks" onclick="openCity(event, 'Work')">
+                    <button class="tab-item tablinks" onclick="openCity(event, 'Work')">
                         <i class="vc_tta-icon fa fa-history"></i>Work history
                     </button>
 
-                    <button href="#" class="tab-item tablinks" onclick="openCity(event, 'Report')">
+                    <button class="tab-item tablinks" onclick="openCity(event, 'Report')">
                         <i class="vc_tta-icon fa fa-print"></i>Report print
                     </button>
 
-                    <button href="#" class="tab-item tablinks" onclick="openCity(event, 'Volunteer')">
+                    <button class="tab-item tablinks" onclick="openCity(event, 'Volunteer')">
                         <i class="vc_tta-icon fa fa-check"></i>Volunteer availability
                     </button>
 
-                    <button href="#" class="tab-item tablinks" onclick="openCity(event, 'Automated')">
+                    <button class="tab-item tablinks" onclick="openCity(event, 'Automated')">
                         <i class="vc_tta-icon fa fa-bullhorn"></i>Automated email notifications
                     </button>
 
-                    <button href="#" class="tab-item tablinks" onclick="openCity(event, 'More')">
+                    <button class="tab-item tablinks" onclick="openCity(event, 'More')">
                         <i class="vc_tta-icon fa fa-search"></i>More advanced search options
                     </button>
 
@@ -695,9 +694,8 @@
                             <input type="text" name="b_aff9c8dceafd8565c394ad5ac_18f774a4db" tabindex="-1" value="">
                         </div>
 
-                        <!-- Submit Button -->
                         <button type="submit"
-                                class="sign-up-button yikes-easy-mc-submit-button yikes-easy-mc-submit-button-1 btn btn-primary vc_general vc_btn3 vc_btn3-size-lg vc_btn3-shape-rounded vc_btn3-style-custom button-blue">
+                                class="sign-up-button yikes-easy-mc-submit-button">
                             <span class="yikes-mailchimp-submit-button-span-text">SUBSCRIBE</span>
                         </button>
                     </form>

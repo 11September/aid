@@ -65,7 +65,7 @@
                     <div class="col-md-4">
                         <div class="aidSpace-people-main-features-item">
                             <div class="aidSpace-people-main-features-item-image">
-                                <i class="icon fa fa-heart"></i>
+                                <i class="fa fa-briefcase"></i>
                             </div>
                             <div class="aidSpace-people-main-features-item-content">
                                 <h4>People and cases management system</h4>

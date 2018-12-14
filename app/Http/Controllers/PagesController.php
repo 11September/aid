@@ -51,6 +51,11 @@ class PagesController extends Controller
         return view('aidspace_maps');
     }
 
+    public function legal()
+    {
+        return view('legal');
+    }
+
     public function terms_of_service()
     {
         return view('terms_of_service');
