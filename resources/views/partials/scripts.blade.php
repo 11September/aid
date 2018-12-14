@@ -1,20 +1,10 @@
 <script src="{{ asset('js/jquery.min.js') }}"></script>
 <script src="{{ asset('js/jquery-migrate.min.js') }}"></script>
 <script src="{{ asset('js/bootstrap.bundle.min.js') }}"></script>
-
 <script src="{{ asset('js/superfish.min.js') }}"></script>
 <script src="{{ asset('js/easing.min.js') }}"></script>
 <script src="{{ asset('js/wow.min.js') }}"></script>
-
-{{--<script src="{{ asset('js/main.js') }}"></script>--}}
-
-<script>
-    $( ".fff" ).click(function() {
-        $( ".mobile-menu" ).slideToggle( "fast", function() {
-            $( "body" ).toggleClass( "myClass" );
-        });
-    });
-</script>
+<script src="{{ asset('js/main.js') }}"></script>
 
 <script>
     (function (i, s, o, g, r, a, m) {

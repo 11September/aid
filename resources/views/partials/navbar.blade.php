@@ -22,18 +22,3 @@
         <button type="button" id="mobile-nav-toggle"><i class="fa fa-bars fff"></i></button>
     </div>
 </header>
-
-<div class="mobile-menu">
-    <ul>
-        <li>wefwef</li>
-        <li>wefwef</li>
-        <li>wefwef</li>
-        <li>wefwef</li>
-        <li>wefwef</li>
-        <li>wefwef</li>
-    </ul>
-    <button type="button" ><i class="fa fa-bars fff"></i></button>
-</div>
-
-
-

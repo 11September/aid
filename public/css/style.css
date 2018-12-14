@@ -128,21 +128,6 @@ span {
     color: #5da6c0;
     text-decoration: none;
 }
-
-.mobile-menu{
-    display: none;
-
-    background: aliceblue;
-    height: 100vh;
-    position: fixed;
-    top: 0;
-    z-index: 9999;
-    width: 100%;
-}
-.myClass{
-    overflow-y: hidden;
-}
-
 /* accordion-mobile */
 .accordion-mobile{
     display: none;
@@ -443,7 +428,7 @@ span {
 }
 
 #mobile-nav ul li a:hover {
-    color: #fff;
+    color: #5da6c0;
 }
 
 #mobile-nav ul li li {
