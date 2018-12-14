@@ -80,11 +80,11 @@ class PagesController extends Controller
             'subject' => 'max:255',
         ]);
 
-        $to = 'info@kitweb.pro';
-        $subject = 'Get in touch form aidspace.io';
+        $to = 'info@aidspace.io';
+        $subject = 'Get in touch form aidspace.io site!';
 
         $headers= "MIME-Version: 1.0\r\n";
-        $headers .= 'From: info@wisp.my' . "\r\n";
+        $headers .= 'From: noreply@aidspace.io' . "\r\n";
         $headers .= "Content-type: text/html; charset=utf-8\r\n";
 
         $message = "
@@ -96,18 +96,18 @@ class PagesController extends Controller
             <p>New Application from aidspace.io!</p>
             
             <table style='width: 100%;'>
-            <tr>
-            <th>name</th>
-            <th>email</th>
-            <th>subject</th>
-            <th>message</th>
-            </tr>
-            <tr>
-            <td>$request->name</td>
-            <td>$request->email</td>
-            <td>$request->subject</td>
-            <td>$request->message</td>
-            </tr>
+                <tr>
+                    <td style='padding: 10px; border: #e9e9e9 1px solid;'><b>Name:</b></td>
+                    <td style='padding: 10px; border: #e9e9e9 1px solid;'><b>Email:</b></td>
+                    <td style='padding: 10px; border: #e9e9e9 1px solid;'><b>Subject:</b></td>
+                    <td style='padding: 10px; border: #e9e9e9 1px solid;'><b>Message:</b></td>
+                </tr>
+                <tr>
+                    <td style='padding: 10px; border: #e9e9e9 1px solid;'>$request->name</td>
+                    <td style='padding: 10px; border: #e9e9e9 1px solid;'>$request->email</td>
+                    <td style='padding: 10px; border: #e9e9e9 1px solid;'>$request->subject</td>
+                    <td style='padding: 10px; border: #e9e9e9 1px solid;'>$request->message</td>
+                </tr>
             </table>
             
             </body>
@@ -119,8 +119,6 @@ class PagesController extends Controller
         }else{
             return redirect()->back()->with('error','Oops! Something went wrong!');
         }
-
-
     }
 
 }
