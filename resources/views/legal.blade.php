@@ -34,7 +34,7 @@
                 <div class="col-md-3">
                     <div class="legal-content-wrapper-item">
                         <div class="legal-content-item">
-                            <a href="{{ url('/legal/terms-of-service') }}">
+                            <a href="{{ url('legal/terms-of-service') }}">
                                 <div class="wrapper-image">
                                     <img src="{{ asset('images/terms-of-service.png') }}" alt="">
                                 </div>
@@ -47,7 +47,7 @@
                 <div class="col-md-3">
                     <div class="legal-content-wrapper-item">
                         <div class="legal-content-item">
-                            <a href="{{ url('/legal/privacy-policy') }}">
+                            <a href="{{ url('legal/privacy-policy') }}">
                                 <div class="wrapper-image">
                                     <img src="{{ asset('images/Privacy-policy.png') }}" alt="">
                                 </div>
@@ -60,7 +60,7 @@
                 <div class="col-md-3">
                     <div class="legal-content-wrapper-item">
                         <div class="legal-content-item">
-                            <a href="{{ url('/legal/cookie-policy') }}">
+                            <a href="{{ url('legal/cookie-policy') }}">
                                 <div class="wrapper-image">
                                     <img width="2134" height="2134" src="{{ asset('images/cookie-policy-1.png') }}" alt="">
                                 </div>
@@ -73,7 +73,7 @@
                 <div class="col-md-3">
                     <div class="legal-content-wrapper-item">
                         <div class="legal-content-item">
-                            <a href="{{ url('/legal/gdpr') }}">
+                            <a href="{{ url('legal/gdpr') }}">
                                 <div class="wrapper-image">
                                     <img src="{{ asset('images/gdpr.png') }}" alt="gdpr compliance">
                                 </div>

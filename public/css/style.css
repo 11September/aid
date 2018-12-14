@@ -1134,6 +1134,23 @@ footer a:hover {
     font-size: 15px;
 }
 
+.footer-top-item .footer-top-item-heading-link{
+    color: #a0acb9;
+    margin-bottom: 35px;
+    font-family: Montserrat;
+    text-transform: capitalize;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 18px;
+    opacity: 1;
+    visibility: visible;
+    -webkit-transition: opacity 0.24s ease-in-out;
+    -moz-transition: opacity 0.24s ease-in-out;
+    transition: opacity 0.24s ease-in-out;
+}
+
 .footer-top-item a:hover {
     color: #5da6c0;
 }

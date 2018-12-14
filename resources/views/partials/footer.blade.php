@@ -30,7 +30,7 @@
                     </div>
                     <div class="col-md-3">
                         <div class="footer-top-item">
-                            <h4>Legal Overview</h4>
+                            <h4><a class="footer-top-item-heading-link" href="{{ url('legal') }}">Legal Overview</a></h4>
                             <p><a href="{{ url('legal/terms-of-service') }}">Terms of Service</a></p>
                             <p><a href="{{ url('legal/cookie-policy') }}">Cookie Policy</a></p>
                             <p><a href="{{ url('legal/privacy-policy') }}">Privacy Policy</a></p>
