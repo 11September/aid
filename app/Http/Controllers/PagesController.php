@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Mail\SendEmail;
 use Illuminate\Http\Request;
 
 class PagesController extends Controller
@@ -85,10 +86,30 @@ class PagesController extends Controller
             'subject' => 'max:255',
         ]);
 
+        $message = $request->all();
+
+        \Mail::send(new SendEmail($message));
+
+        if (count(\Mail::failures()) > 0) {
+            return redirect()->back()->with('error', 'Oops! Something went wrong!');
+        } else {
+            return redirect()->back()->with('success', 'Message sent!');
+        }
+    }
+
+    public function OldEmail(Request $request)
+    {
+        $request->validate([
+            'email' => 'required|max:255',
+            'message' => 'required|max:255',
+            'name' => 'max:255',
+            'subject' => 'max:255',
+        ]);
+
         $to = 'info@aidspace.io';
         $subject = 'Get in touch form aidspace.io site!';
 
-        $headers= "MIME-Version: 1.0\r\n";
+        $headers = "MIME-Version: 1.0\r\n";
         $headers .= 'From: noreply@aidspace.io' . "\r\n";
         $headers .= "Content-type: text/html; charset=utf-8\r\n";
 
@@ -119,10 +140,10 @@ class PagesController extends Controller
             </html>
             ";
 
-        if (mail($to, $subject, $message, $headers)){
-            return redirect()->back()->with('success','Message sent!');
-        }else{
-            return redirect()->back()->with('error','Oops! Something went wrong!');
+        if (mail($to, $subject, $message, $headers)) {
+            return redirect()->back()->with('success', 'Message sent!');
+        } else {
+            return redirect()->back()->with('error', 'Oops! Something went wrong!');
         }
     }
 
