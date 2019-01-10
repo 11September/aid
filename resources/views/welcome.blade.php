@@ -52,9 +52,14 @@
                 <div class="col-md-6">
                     <div class="how-it-works-video-wrapper">
                         <div class="how-it-works-video">
-                            <iframe width="1180" height="664"
-                                    src="https://www.youtube.com/embed/h5QS1eR8H4c?feature=oembed" frameborder="0"
-                                    allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
+                            <div class="youtube-player" data-id="h5QS1eR8H4c" data-related="0" data-control="1"
+                                 data-info="1" data-fullscreen="1"
+                                 style="width:100%;display: block; position: relative;cursor: pointer;max-height:360px;height:100%; overflow:hidden;padding-bottom:56.25%;margin:0 auto">
+                                <img src="//i.ytimg.com/vi/h5QS1eR8H4c/hqdefault.jpg"
+                                     style="bottom: -100%; display: block; left: 0; margin: auto; max-width: 100%; width: 100%;height:auto; position: absolute; right: 0; top: -100%;">
+                                <div
+                                    style="height: 72px; width: 72px; left: 50%; top: 50%; margin-left: -36px; margin-top: -36px; position: absolute; background: url('http://i.imgur.com/TxzC70f.png') no-repeat;"></div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -80,8 +85,8 @@
                              data-parent="#accordion">
                             <div class="card-body">
                                 <div class="tabcontent-content vc_box_shadow_3d box_shadow">
-                                    <img width="1635" height="823"
-                                         src="{{ asset('images/dashboard-updates-feed.png') }}"
+                                    <img width="1635" height="823" class="lazy"
+                                         data-src="{{ asset('images/dashboard-updates-feed.png') }}"
                                          alt="Updates feed in Dashboard">
                                 </div>
                             </div>
@@ -99,8 +104,8 @@
                         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
                             <div class="card-body">
                                 <div class="tabcontent-content vc_box_shadow_3d box_shadow">
-                                    <img width="1609" height="337"
-                                         src="{{ asset('images/Inbox-AidSpace-Volunteers.png') }}"
+                                    <img width="1609" height="337" class="lazy"
+                                         data-src="{{ asset('images/Inbox-AidSpace-Volunteers.png') }}"
                                          alt="volunteer management, inbox , new messages">
                                 </div>
                             </div>
@@ -118,8 +123,8 @@
                              data-parent="#accordion">
                             <div class="card-body">
                                 <div class="tabcontent-content vc_box_shadow_3d box_shadow">
-                                    <img width="1633" height="837"
-                                         src="{{ asset('images/scheduling-module-2.png') }}"
+                                    <img width="1633" height="837" class="lazy"
+                                         data-src="{{ asset('images/scheduling-module-2.png') }}"
                                          alt="List of volnteers and their assignments in Schedule module">
                                 </div>
                             </div>
@@ -138,8 +143,9 @@
                              data-parent="#accordion">
                             <div class="card-body">
                                 <div class="tabcontent-content vc_box_shadow_3d box_shadow">
-                                    <img width="1644" height="816"
-                                         src="{{ asset('images/events-module-1.png') }}" alt="Event, events module">
+                                    <img width="1644" height="816" class="lazy"
+                                         data-src="{{ asset('images/events-module-1.png') }}"
+                                         alt="Event, events module">
                                 </div>
                             </div>
                         </div>
@@ -156,8 +162,8 @@
                              data-parent="#accordion">
                             <div class="card-body">
                                 <div class="tabcontent-content vc_box_shadow_3d box_shadow">
-                                    <img width="1878" height="1034"
-                                         src="{{ asset('images/tutorials-and-guides.png') }}"
+                                    <img width="1878" height="1034" class="lazy"
+                                         data-src="{{ asset('images/tutorials-and-guides.png') }}"
                                          alt="Tutorials for volunteers, tutorials for administrators">
                                 </div>
                             </div>
@@ -175,8 +181,8 @@
                              data-parent="#accordion">
                             <div class="card-body">
                                 <div class="tabcontent-content vc_box_shadow_3d box_shadow">
-                                    <img width="1590" height="885"
-                                         src="{{ asset('images/work-history.png') }}"
+                                    <img width="1590" height="885" class="lazy"
+                                         data-src="{{ asset('images/work-history.png') }}"
                                          alt="Work history of the volunteer, work experience of the volunteer">
                                 </div>
                             </div>
@@ -195,14 +201,15 @@
                              data-parent="#accordion">
                             <div class="card-body">
                                 <div class="tabcontent-content vc_box_shadow_3d box_shadow">
-                                    <img width="1613" height="718"
-                                         src="{{ asset('images/reports-print-1.png') }}"
+                                    <img width="1613" height="718" class="lazy"
+                                         data-src="{{ asset('images/reports-print-1.png') }}"
                                          alt="Reports print, printing reports for admins or coordinators">
                                 </div>
 
                                 <div class="tabcontent-content vc_box_shadow_3d box_shadow">
-                                    <img width="1858" height="916"
-                                         src="{{ asset('images/reports-print-2.png') }}" alt="Print report preview, report print">
+                                    <img width="1858" height="916" class="lazy"
+                                         data-src="{{ asset('images/reports-print-2.png') }}"
+                                         alt="Print report preview, report print">
                                 </div>
                             </div>
                         </div>
@@ -219,8 +226,8 @@
                              data-parent="#accordion">
                             <div class="card-body">
                                 <div class="tabcontent-content vc_box_shadow_3d box_shadow">
-                                    <img width="1335" height="811"
-                                         src="{{ asset('images/volunteer-availability-1.png') }}"
+                                    <img width="1335" height="811" class="lazy"
+                                         data-src="{{ asset('images/volunteer-availability-1.png') }}"
                                          alt="Availability of the volunteer, aidspace, volutneer availability">
                                 </div>
                             </div>
@@ -238,8 +245,8 @@
                              data-parent="#accordion">
                             <div class="card-body">
                                 <div class="tabcontent-content vc_box_shadow_3d box_shadow">
-                                    <img width="1400" height="788"
-                                         src="{{ asset('images/automated-email-notifications-1.png') }}"
+                                    <img width="1400" height="788" class="lazy"
+                                         data-src="{{ asset('images/automated-email-notifications-1.png') }}"
                                          alt="Automated email notifications; shifts; awaiting approval; rejected shifts">
                                 </div>
                             </div>
@@ -257,8 +264,8 @@
                              data-parent="#accordion">
                             <div class="card-body">
                                 <div class="tabcontent-content vc_box_shadow_3d box_shadow">
-                                    <img class="vc_single_image-img "
-                                         src="{{ asset('images/advanced-search-options-1017x566.png') }}"
+                                    <img class="vc_single_image-img lazy"
+                                         data-src="{{ asset('images/advanced-search-options-1017x566.png') }}"
                                          width="1017" height="566"
                                          alt="Advanced search in admin or coordinator profile; volunteers search; match volunteer profile">
                                 </div>
@@ -314,96 +321,98 @@
 
                 <div id="Dashboard" class="tabcontent">
                     <div class="tabcontent-content vc_box_shadow_3d box_shadow">
-                        <img width="1635" height="823" src="{{ asset('images/dashboard-updates-feed.png') }}"
-                             alt="Updates feed in Dashboard">
+                        <img width="1635" height="823" data-src="{{ asset('images/dashboard-updates-feed.png') }}"
+                             class="lazy" alt="Updates feed in Dashboard">
                     </div>
                 </div>
 
                 <div id="Inbox" class="tabcontent">
                     <div class="tabcontent-content vc_box_shadow_3d box_shadow">
                         <img width="1609" height="337"
-                             src="{{ asset('images/Inbox-AidSpace-Volunteers.png') }}"
-                             alt="volunteer management, inbox , new messages">
+                             data-src="{{ asset('images/Inbox-AidSpace-Volunteers.png') }}"
+                             class="lazy" alt="volunteer management, inbox , new messages">
                     </div>
                 </div>
 
                 <div id="Scheduling" class="tabcontent">
                     <div class="tabcontent-content vc_box_shadow_3d box_shadow">
                         <img width="1633" height="837"
-                             src="{{ asset('images/scheduling-module-2.png') }}"
-                             alt="List of volnteers and their assignments in Schedule module">
+                             data-src="{{ asset('images/scheduling-module-2.png') }}"
+                             class="lazy" alt="List of volnteers and their assignments in Schedule module">
                     </div>
 
                     <div class="tabcontent-content vc_box_shadow_3d box_shadow">
                         <img width="1633" height="837"
-                             src="{{ asset('images/scheduling-module-2.png') }}"
-                             alt="List of volnteers and their assignments in Schedule module">
+                             data-src="{{ asset('images/scheduling-module-2.png') }}"
+                             class="lazy" alt="List of volnteers and their assignments in Schedule module">
                     </div>
 
                     <div class="tabcontent-content vc_box_shadow_3d box_shadow">
                         <img width="1920" height="1080"
-                             src="{{ asset('images/scheduling-module-3.png') }}"
-                             alt="Creating new shift pop up, new shift">
+                             data-src="{{ asset('images/scheduling-module-3.png') }}"
+                             class="lazy" alt="Creating new shift pop up, new shift">
                     </div>
                 </div>
 
                 <div id="Event" class="tabcontent">
                     <div class="tabcontent-content vc_box_shadow_3d box_shadow">
                         <img width="1644" height="816"
-                             src="{{ asset('images/events-module-1.png') }}" alt="Event, events module">
+                             class="lazy" data-src="{{ asset('images/events-module-1.png') }}"
+                             alt="Event, events module">
                     </div>
                 </div>
 
                 <div id="Tutorials" class="tabcontent">
                     <div class="tabcontent-content vc_box_shadow_3d box_shadow">
                         <img width="1878" height="1034"
-                             src="{{ asset('images/tutorials-and-guides.png') }}"
-                             alt="Tutorials for volunteers, tutorials for administrators">
+                             data-src="{{ asset('images/tutorials-and-guides.png') }}"
+                             class="lazy" alt="Tutorials for volunteers, tutorials for administrators">
                     </div>
                 </div>
 
                 <div id="Work" class="tabcontent">
                     <div class="tabcontent-content vc_box_shadow_3d box_shadow">
                         <img width="1590" height="885"
-                             src="{{ asset('images/work-history.png') }}"
-                             alt="Work history of the volunteer, work experience of the volunteer">
+                             data-src="{{ asset('images/work-history.png') }}"
+                             class="lazy" alt="Work history of the volunteer, work experience of the volunteer">
                     </div>
                 </div>
 
                 <div id="Report" class="tabcontent">
                     <div class="tabcontent-content vc_box_shadow_3d box_shadow">
                         <img width="1613" height="718"
-                             src="{{ asset('images/reports-print-1.png') }}"
-                             alt="Reports print, printing reports for admins or coordinators">
+                             data-src="{{ asset('images/reports-print-1.png') }}"
+                             class="lazy" alt="Reports print, printing reports for admins or coordinators">
                     </div>
 
                     <div class="tabcontent-content vc_box_shadow_3d box_shadow">
                         <img width="1858" height="916"
-                             src="{{ asset('images/reports-print-2.png') }}" alt="Print report preview, report print">
+                             class="lazy" data-src="{{ asset('images/reports-print-2.png') }}"
+                             alt="Print report preview, report print">
                     </div>
                 </div>
 
                 <div id="Volunteer" class="tabcontent">
                     <div class="tabcontent-content vc_box_shadow_3d box_shadow">
                         <img width="1335" height="811"
-                             src="{{ asset('images/volunteer-availability-1.png') }}"
-                             alt="Availability of the volunteer, aidspace, volutneer availability">
+                             data-src="{{ asset('images/volunteer-availability-1.png') }}"
+                             class="lazy" alt="Availability of the volunteer, aidspace, volutneer availability">
                     </div>
                 </div>
 
                 <div id="Automated" class="tabcontent">
                     <div class="tabcontent-content vc_box_shadow_3d box_shadow">
                         <img width="1400" height="788"
-                             src="{{ asset('images/automated-email-notifications-1.png') }}"
+                             data-src="{{ asset('images/automated-email-notifications-1.png') }}"
+                             class="lazy"
                              alt="Automated email notifications; shifts; awaiting approval; rejected shifts">
                     </div>
                 </div>
 
                 <div id="More" class="tabcontent">
                     <div class="tabcontent-content vc_box_shadow_3d box_shadow">
-                        <img class="vc_single_image-img "
-                             src="{{ asset('images/advanced-search-options-1017x566.png') }}"
-                             width="1017" height="566"
+                        <img data-src="{{ asset('images/advanced-search-options-1017x566.png') }}"
+                             width="1017" height="566" class="lazy"
                              alt="Advanced search in admin or coordinator profile; volunteers search; match volunteer profile">
                     </div>
                 </div>
@@ -584,8 +593,8 @@
                         <div class="development-goals-icon">
                             <div class="goals-icon">
                                 <div class="box_shadow">
-                                    <img class="vc_single_image-img "
-                                         src="{{ asset('images/E_INVERTED-SDG-goals_icons-individual-RGB-08-100x100.png') }}"
+                                    <img class="vc_single_image-img lazy"
+                                         data-src="{{ asset('images/E_INVERTED-SDG-goals_icons-individual-RGB-08-100x100.png') }}"
                                          width="100" height="100"
                                          alt="Companies that uphold labor standards across their own operations and value chains achieve positive reputation and legal stability.Embracing diversity and inclusion will also lead to greater access to skilled and productive talent.">
                                 </div>
@@ -596,8 +605,8 @@
                         <div class="development-goals-icon">
                             <div class="goals-icon">
                                 <div class="box_shadow">
-                                    <img class="vc_single_image-img "
-                                         src="{{ asset('images/E_INVERTED-SDG-goals_icons-individual-RGB-09-100x100.png') }}"
+                                    <img class="vc_single_image-img lazy"
+                                         data-src="{{ asset('images/E_INVERTED-SDG-goals_icons-individual-RGB-09-100x100.png') }}"
                                          width="100" height="100"
                                          alt="Build resilient infrastructure, promote inclusive and sustainable industrialization and foster innovation.">
                                 </div>
@@ -608,8 +617,8 @@
                         <div class="development-goals-icon">
                             <div class="goals-icon">
                                 <div class="box_shadow">
-                                    <img class="vc_single_image-img "
-                                         src="{{ asset('images/E_INVERTED-SDG-goals_icons-individual-RGB-17-100x100.png') }}"
+                                    <img class="vc_single_image-img lazy"
+                                         data-src="{{ asset('images/E_INVERTED-SDG-goals_icons-individual-RGB-17-100x100.png') }}"
                                          width="100" height="100"
                                          alt="Make multi-collaborator partnerships to mobilize and share knowledge, expertise, technologies and financial resources to support the goals in all countries, particularly developing countries.It further seeks to encourage and promote effective public, public-private and civil society alliances built on the experience and resourcing strategies of partnerships.">
                                 </div>
